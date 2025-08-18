@@ -1,0 +1,94 @@
+/* css to form home */
+
+.form-control, input#telefono, select#programa-interes {
+    background-color: #EBECED;
+    color: #B3BDC1;
+}
+
+input::placeholder {
+    color: #B3BDC1 !important;
+    font-size: var(--tamaño-fuente-medio-2);    
+}
+
+label {
+    font-weight: bold;
+    font-size: var(--tamaño-fuente-grande);
+    color: var(--color-azul-oscuro);
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+/* poner de color rojo el placeholder de input  */
+input::placeholder {
+    color: red ;
+}
+
+.content-formulario-1 {
+    max-width: 600px;
+}
+
+.columna-formulario-1 {
+    padding-left: 5vw;
+    padding-right: 3vw;
+}
+
+@media (max-width: 1200px) {
+    .content-formulario-1 {
+        max-width: none;
+    }
+
+    .columna-formulario-1 {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+
+
+/* tu.css: cargar DESPUÉS del CSS del plugin */
+.iti input {
+    font: inherit;
+    color: inherit;
+    background: inherit;
+    border: 1px solid var(--borde, #ccc);
+    border-radius: .5rem;
+    padding: .5rem .75rem; 
+    height: auto; line-height: normal;
+}
+
+
+.iti input {
+    padding-left: .75rem;
+}
+
+
+.iti {
+    width: 100%;
+}
+
+input.form-control:valid,
+textarea.form-control:valid {
+    color: var(--color-azul-oscuro) !important;
+}
+
+#idConvenios:invalid,
+#programa-interes:invalid {
+    color: #B3BDC1;
+}
+
+#idConvenios:valid,
+#programa-interes:valid {
+    color: var(--color-azul-oscuro);
+}
+
+#idConvenios option,
+#programa-interes option {
+    color: var(--color-azul-oscuro);
+}
+
+#idConvenios option[disabled],
+#programa-interes option[disabled] {
+    color: #B3BDC1;
+}

@@ -1,0 +1,689 @@
+.section-programas{
+    /*Esta seccionn se va a ajustar al 100% de su contenedor horizontal y verticalmente*/
+    background-image: 
+    url('../img/programas/bg-programas.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: auto;
+    min-height: 550px;
+
+    border-radius: 0px 0px 24px 24px;
+    padding: 1.2rem;
+}
+
+.titulo-section-2{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-medio-oscuro);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bold;
+}
+
+.programas-resumen{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: normal;
+}
+
+.programas-iconos-informativos{
+    display: flex;
+    justify-content:space-around;
+}
+
+.programas-iconos-informativos > div{
+    text-align: center;
+}
+
+.icono-informativo-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-medio-oscuro-variante);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.icono-informativo-descripcion{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-pequeño);
+    font-weight:400;
+}
+
+.inscribete-aqui-titulo-principal{
+    background-color: var(--color-azul-medio-oscuro);
+    border-radius: 9px 9px 0px 0px;
+    width: 60%;
+    margin: auto;
+}
+
+.inscribete-aqui-titulo-principal > span{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-blanco);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight:400;
+}
+
+.inscribete-aqui{
+    min-width: auto;
+    max-width: 413px;
+    width: 100%;
+    min-height: 288px;
+    height: auto;
+    background-color: var(--color-blanco);
+    /* position: absolute; */
+    /* left: 60%; */
+    box-shadow: 0px 6px 6px #1F378C1D;
+    border: 1px solid #2C43AA;
+    border-radius: 15px;
+    opacity: 1;
+    text-align: center;
+    padding: 1.5rem 0.8rem;
+}
+
+.inscribete-aqui-titulo{
+   font-family: var(--fuente-titulo);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight:normal; 
+}
+
+.inscribete-aqui-costo{
+   font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-titulos);
+    font-weight:bolder;
+    margin-block-end: 0;
+}
+
+.inscribete-aqui-terminos{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-muy-pequeño);
+    font-weight:normal; 
+    text-align: left;
+    margin-block-end: 0;
+}
+
+.texto-inscripcion{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-azul-claro-4);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight:400; 
+    text-align: left;
+}
+
+.section-plan-estudios{
+    padding: 0;
+}
+
+.plan-estudios-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight:bold; 
+    text-align: left;   
+}
+
+.plan-estudios-subtitulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight:normal; 
+    text-align: left;   
+}
+
+.plan-estudios-materias-old{
+    box-shadow: 0px 3px 15px #0017FF1F;
+    border-radius: 0px 0px 24px 24px;
+    background-color: white;
+    padding: 2rem 1rem 0.2rem 1rem;
+}
+
+.plan-estudios-materias-lista{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 0;
+}
+
+.plan-estudios-footer{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight:normal; 
+    text-align: left; 
+}
+
+.plan-estudios-materia{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight:normal; 
+    text-align: left;
+}
+
+.plan-estudios-periodos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 3px solid var(--color-azul-dark);
+    background-color: white;
+}
+
+.periodos:first-child{
+    background-color: var(--color-azul-oscuro-texto);
+    color: white;
+}
+
+.periodos{
+    flex: 1;
+    color: var(--color-azul-medio-oscuro);
+    font-size: var(--tamaño-fuente-medio-2);
+    border-radius: 5px;
+}
+
+
+.section-historias{
+    padding: 0;
+}
+
+.historias-body{
+    display: flex;
+    /* background-color: rgb(48, 98, 142); */
+    width: 100%;
+    padding: 3rem 2rem;
+    height: 502px;
+    box-shadow: 0px 3px 6px #0F2A6117;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.historias-testimonios-1{
+    /* background-color: rgb(208, 164, 21); */
+    display: flex;
+    width: 100%;
+}
+
+.historias-testimonios-1{
+    /* flex: 1; */
+    padding: 0 0 0 1rem;
+}
+
+
+.historias-testimonios-2{
+    display: flex;
+    width: 38%;
+    /* background-color: bisque; */
+}
+
+.testimonios-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-medio-oscuro-variante);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight:bolder; 
+    text-align: left;
+}
+
+.testimonios-body{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight:normal; 
+    text-align: left;
+}
+
+.testimonios-redes{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-medio-oscuro);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight:500; 
+    text-align: left;
+}
+
+.historias-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-titulos);
+    font-weight:bold;
+}
+
+.requisitos-admision{
+    height: 424px;
+    border-radius: 24px;
+    padding: 2.8rem 1rem;
+}
+
+.proceso-inscripcion{
+    padding: 2.8rem 1rem;
+    border-radius: 15px;
+    background-color:var(--color-azul-cyan-variante);
+}
+
+.requisito-admision-titulo, .proceso-inscripcion-titulo{
+    text-align: center;
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight:bolder;
+}
+
+.lista-requisitos{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight:normal;
+}
+
+.lista-requisitos-maestrias{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight:normal;
+    padding-left: 4rem;
+}
+
+.proceso-inscripcion-texto{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight:500;
+    text-align: center;
+}
+
+.proceso-inscripcion-pasos{
+    text-align: center;
+}
+
+.proceso-inscripcion-boton-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.proceso-inscripcion-boton{
+    width: 337px;
+    height: 64px;
+    background-color: var(--color-azul-dark);
+    box-shadow: 0px 6px 6px #F4F6FFF5;
+    border-radius: 90px;
+    color: white;
+    font-family: var(--fuente-parrafo-2); 
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-ciencias-politicas{
+    display: flex;
+    justify-content:space-between;
+    gap: 1rem;
+    padding: 0;
+}
+
+.perfil-ciencias-politicas > div{
+    flex: 1;
+    height: 580px;
+    background-color: #D4E4F9;
+    border-radius: 24px;
+    padding: 1.3rem;
+}
+
+.perfil-ciencias-politicas-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.perfil-ciencias-politicas-imagen{
+    padding: 0 !important;
+}
+
+.perfil-ciencias-politicas-ingreso{
+}
+
+.perfil-ciencias-politicas-imagen > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 24px 24px 24px 24px;
+}
+
+.perfil-ingreso-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight:bolder;
+    text-align: left;
+}
+
+.perfil-ingreso-texto{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight:normal;
+    text-align: left;
+}
+
+.perfil-ingreso-subtitulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: 30px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.perfil-ingreso-descripcion{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight:500;
+    text-align: left;
+}
+
+.banner-oferta{
+    height: 187px;
+    background-color: var(--color-azul-medio-oscuro);
+    border-radius: 24px;
+    display: flex;
+}
+
+.banner-oferta-texto{
+    flex: 1;
+    flex-grow: 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-oferta-calcula-beca{
+    flex: 1;
+    flex-grow: 1;
+}
+
+.obten-tu-beca{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-blanco);
+    font-size: 30px;
+    font-weight:bold;
+    text-align: left;
+}
+
+.banner-oferta-calcula-beca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calcula-beca-boton{
+    width: 290px;
+    height: 64px;
+    background-color: var(--color-azul-oscuro-texto);
+    box-shadow: 0px 3px 4px #264FFF8A;
+    border-radius: 90px;
+    color: white;
+    font-family: var(--fuente-titulo); 
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.info-box{
+    border:1px solid #ccc; 
+    padding:20px; 
+    min-height:280px;
+    border: 1px solid #99A3FF;
+    border-radius: 24px;
+    font-family: var(--fuente-titulo);
+    font-size: 24px;
+    color: var(--color-azul-medio-oscuro);
+    font-weight: 600;
+
+}
+
+.box-preguntas-frecuentes{
+    background-color: var(--color-azul-medio-oscuro-variante); 
+    border-radius:24px; 
+    height:100%; 
+    padding:32px;
+    color:#fff; 
+    /* display:flex; 
+    flex-direction:column; 
+    justify-content:center; */
+}
+
+.preguntas-frecuentes-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-blanco);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.preguntas-frecuentes-descripcion{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-blanco);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: normal;
+}
+
+.programa-relacionado-box{
+    background-color: var(--color-blanco);
+    border-radius: 12px;
+    /* padding: 24px; */
+    margin-bottom: 24px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.programa-relacionado-box > h3{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-dark);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: 400;
+}
+
+.programa-relacionado-box > h4{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-medio-oscuro);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: bolder;
+}
+
+.licenciatura-administracion{
+    border: 1px solid #0018FF;
+}
+
+.programas-relacionados-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bolder;
+}
+
+.contacto-box{
+    min-height: 278px;
+    border-radius: 15px;
+    background-color: var(--color-azul-azul-claro-2);
+}
+
+.contacto-titulo{
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: bolder; 
+}
+
+.contacto-descripcion{
+    font-family: var(--fuente-titulo);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: normal; 
+}
+
+.box-perfil-ingreso{
+    background-color: #D4E4F9;
+    border-radius: 24px;
+    min-height: 580px;
+    height: 580px;
+}
+
+.cita-testimonio{
+    color: var(--color-azul-azul-claro-3);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bold;
+}
+
+.testimonio-autor{
+    color: var(--color-azul-medio-oscuro-variante);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;  
+}
+
+.section-banner-beca{
+    min-width: 1433px;
+    width: auto;
+    min-height: 320px;
+    height: auto;
+    background-color: var(--color-azul-medio-oscuro);
+    box-shadow: 0px 3px 15px #0017FF1F;
+    border-radius: 24px;
+}
+
+.registrate-beca{
+    color: var(--color-azul-cyan-variante);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: lighter; 
+}
+
+.obten-una-beca{
+    color: var(--color-blanco);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos);
+    font-weight: bolder;   
+}
+
+.obten-una-beca-descripcion{
+    color: var(--color-blanco);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-muy-grande-2);
+    font-weight: normal;   
+}
+
+.box-elge-licenciatura{
+    border-radius: 12px;
+    background-color: var(--color-blanco);
+    width: fit-content;
+    min-height: 223px;
+    height: auto;
+    color: var(--color-azul-oscuro-texto);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight: normal;
+}
+
+.que-esperas{
+    color: var(--color-azul-cyan-variante);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande-2);
+    font-weight: 200;
+}
+
+.opiniones-autores{
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande-2);
+    font-weight: bold;   
+}
+
+.opiniones-antiguedad{
+    color: var(--color-azul-azul-claro-5);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: 500;   
+}
+
+.opiniones-cita{
+    color: var(--color-azul-oscuro-texto);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight: normal;   
+}
+
+.box-opiniones{
+    background-color: var(--color-blanco);
+    box-shadow: 0px 3px 6px #1F378C2E;
+    border-radius: 24px;
+    padding: 1rem 2rem;
+    min-height: 400px;
+    height: auto;
+}
+
+.opiniones-titulo{
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos);
+    text-align: center;
+    font-weight: 800;
+}
+
+.box-plan-estudios{
+    background-color: var(--color-blanco);
+    min-height: 204px;
+    height: auto;
+    box-shadow: 0px 3px 15px #0017FF1F;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.box-periodos{
+    border-bottom: 4px solid #1F378C;
+    height: 42px;
+    height: 100%;
+    text-align: center;
+}
+
+.box-periodos > div{
+    color: var(--color-azul-medio-oscuro);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    text-align: center;
+    font-weight: normal;
+}
+
+.plan-estudio-activo{
+    background-color: var(--color-azul-oscuro-texto-titulo);
+    border-radius: 6px 6px 0px 0px;
+    color: var(--color-blanco) !important;
+    font-weight: bold !important;
+}
+
+.plan-estudios-materias{
+    color: var(--color-azul-dark);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    text-align: center;
+    font-weight: normal;
+}
+
+.plan-estudios-asignaturas-obligatorias{
+    color: var(--color-azul-dark);
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: normal;
+}
+
+.contenedor-circulo-blanco{
+    background-color:white; 
+    width: 53px;
+    height: 53px; 
+    border-radius:100%;
+}
