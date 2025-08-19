@@ -43,7 +43,7 @@
                         <img class="me-1" src="assets/img/admisiones/flecha-blanca-abajo.png" alt="">
                         Paso 1: Regístrate en línea
                     </div>
-                    <p class="box-paso-seleccionado-body mx-4 pt-2">
+                    <p class="box-paso-seleccionado-body mx-2 mx-md-4 pt-2">
                         Primero debes elegir el programa, llena el formulario y un asesor educativo te conectará para continuar con tu inscripción.
                     </p>
                 </div>
