@@ -1,6 +1,6 @@
 .section-proceso-inscripcion{
     width: auto;
-    max-width: 1299px;
+    max-width: min(100%,1299px);
     background-image: 
     url('../img/admisiones/fondo-inscripcion.png');
     background-position: center;
@@ -15,7 +15,7 @@
 
 .proceso-inscripcion-left{
     width: auto;
-    max-width: 587px;
+    max-width: min(100%,587px);
 }
 
 .proceso-inscripcion-titulo{
@@ -52,6 +52,7 @@
     background-color: var(--color-azul-azul-claro-8);
     border-radius: 12px;
     width: 576px;
+    max-width: min(100%,576px);
     height: 61px;
     font-family: var(--fuente-parrafo-2);
     font-size: var(--tamaño-fuente-muy-grande);
@@ -61,7 +62,7 @@
 
 .box-paso-inscripcion-seleccionado{
     width: 576px;
-    max-width: 576px;
+    max-width: min(100%,576px);
     height: auto;
     min-height: 137px;
     border-radius: 12px;
