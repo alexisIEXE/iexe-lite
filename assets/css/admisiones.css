@@ -194,3 +194,66 @@
     font-weight: 400;
     color: var(--color-azul-oscuro-texto-titulo);
 }
+
+.scroll-banderas{
+    width: 42px;
+    height: 42px;
+    background: #0018FF 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-programas-academicos{
+    width: 42px;
+    height: 42px;
+    background: #0018FF 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+  .scroll-programas-academicos {
+    height: 100%;
+  }
+}
+
+.scroll-banderas::after, .scroll-programas-academicos::after{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  transform: rotate(-45deg);
+}
+
+.admisiones-flecha-azul, admisiones-flecha-blanca-abajo{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admisiones-flecha-azul::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid #0018FF;
+    border-bottom: 3px solid #0018FF;
+    transform: rotate(-45deg);
+}
+
+.admisiones-flecha-blanca-abajo::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(45deg);
+}

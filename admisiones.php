@@ -8,18 +8,18 @@
                     Comienza tu proceso de inscripción a IEXE Universidad
                 </h2>
                 <p class="proceso-inscripcion-descripcion">
-                    Estudia desde cualquier lugar del país con nuestra universidad 100 % en línea. Ofrecemos programas de calidad, avalados por la SEP, diseñados para adaptarse a tus tiempos y necesidades. 
+                    Estudia desde cualquier lugar del país con nuestra universidad 100 % en línea. Ofrecemos programas de calidad, avalados por la SEP, diseñados para adaptarse a tus tiempos y necesidades.
                     <br>
                     Nuestro modelo educativo es flexible, accesible y con opciones de apoyo financiero y becas para que nada te impida alcanzar tu meta profesional.
                 </p>
-                 <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
+                <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
                     <span class="requisitos-admision-item me-1"> </span>
                     Este programa SEP en línea permite estudiar desde cualquier lugar, manteniendo un alto estándar académico y una formación aplicable desde el primer módulo.
-                 </p>
-                 <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
+                </p>
+                <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
                     <span class="requisitos-admision-item me-1"> </span>
-                   Con más de una década de trayectoria, IEXE Universidad ha consolidado su experiencia mediante la realización de más de 350 evaluaciones de políticas públicas en América Latina. 
-                 </p>
+                    Con más de una década de trayectoria, IEXE Universidad ha consolidado su experiencia mediante la realización de más de 350 evaluaciones de políticas públicas en América Latina.
+                </p>
                 <div class="d-flex d-none d-md-flex">
                     <div class="d-flex flex-column justify-content-center align-items-center mx-5">
                         <img src="assets/img/becas/calculadora.png" alt="">
@@ -40,7 +40,7 @@
 
                 <div class="box-paso-inscripcion-seleccionado pb-4">
                     <div class="box-paso-incripcion box-paso-seleccionado-header d-flex align-items-center px-4">
-                        <img class="me-1" src="assets/img/admisiones/flecha-blanca-abajo.png" alt="">
+                        <i class="admisiones-flecha-blanca-abajo me-2 mb-2"></i>
                         Paso 1: Regístrate en línea
                     </div>
                     <p class="box-paso-seleccionado-body mx-2 mx-md-4 pt-2">
@@ -48,16 +48,16 @@
                     </p>
                 </div>
 
-                <div class="box-paso-incripcion d-flex align-items-center px-4 mt-3">
-                    <img class="me-1" src="assets/img/admisiones/flecha-azul-derecha.png" alt="">
+                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
+                    <i class="admisiones-flecha-azul me-1"></i>
                     Paso 2: Contar con los documentos necesarios
                 </div>
-                <div class="box-paso-incripcion d-flex align-items-center px-4 mt-3">
-                    <img class="me-1" src="assets/img/admisiones/flecha-azul-derecha.png" alt="">
+                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
+                    <i class="admisiones-flecha-azul me-1"></i>
                     Paso 3: Generamos tu ficha de inscripción
                 </div>
-                <div class="box-paso-incripcion d-flex align-items-center px-4 mt-3">
-                    <img class="me-1" src="assets/img/admisiones/flecha-azul-derecha.png" alt="">
+                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
+                    <i class="admisiones-flecha-azul me-1"></i>
                     Paso 4: Realiza tu pago de inscripción
                 </div>
             </div>
@@ -67,7 +67,7 @@
 
 <section id="section-requisitos-admision">
     <div class="container section-requisitos-admision">
-        <div class="row admision-programas-contenedor d-flex flex-column justify-content-end">
+        <div class="row admision-programas-contenedor d-flex flex-column justify-content-end position-relative">
             <div class="col-ms-12 col-md-3 d-flex justify-content-center align-items-center admision-programa-academico admision-programa-academico-seleccionado">
                 Licenciaturas (Estatal)
             </div>
@@ -80,6 +80,7 @@
             <div class="col-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
                 Maestrías (Federal)
             </div>
+            <div class="scroll-programas-academicos position-absolute end-0 h-ms-100"></div>
         </div>
         <div class="row requisitos-admision-contenedor">
             <div class="col-ms-12 col-md-6 d-flex justify-content-center py-3">
@@ -108,7 +109,7 @@
                 <h3 class="convalidacion-internacional-subtitulo">En los siguientes enlaces podrás encontrar la información necesaria de cada país para realizar tu proceso de convalidación.</h3>
             </div>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4 position-relative">
             <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">SENECYT</h4>
                 <h5 class="convalidacion-internacionaL-pais">Ecuador</h5>
@@ -144,6 +145,9 @@
                 <h5 class="convalidacion-internacionaL-pais">Perú</h5>
                 <img src="assets/img/admisiones/bandera-peru.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
+            </div>
+            <div class="d-md-none scroll-banderas position-absolute top-50 end-0">
+                <img class="img-fluid" src="" alt="">
             </div>
         </div>
     </div>
