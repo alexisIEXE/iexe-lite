@@ -21,20 +21,25 @@
         </div>
         <div class="row">
             <div class="col-4 d-flex flex-column justify-content-center ">
-                <div class="px-1 py-3 becas-tipos-container">
+                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
                     <h2 class="becas-tipos">Beca Institucional IEXE</h2>
+                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
                 </div>
-                <div class="px-1 py-3 becas-tipos-container">
+                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
                     <h2 class="becas-tipos">Beca por Convenios</h2>
+                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
                 </div>
-                <div class="px-1 py-3 becas-tipos-container">
+                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container beca-embajadores">
                     <h2 class="becas-tipos">Beca Embajadores IEXE</h2>
+                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
                 </div>
-                <div class="px-1 py-3 becas-tipos-container">
+                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
                     <h2 class="becas-tipos">Beca de Globo Común</h2>
+                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
                 </div>
-                <div class="px-1 py-3 becas-tipos-container">
+                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
                     <h2 class="becas-tipos">Beca SEP</h2>
+                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
                 </div>
                 <div class="px-1 py-3 mt-4 text-center">
                     <div class="becas-obten-una-beca text-center">¡Obten una beca!</div>
@@ -138,16 +143,35 @@
                 Reconocemos el esfuerzo y talento al otorgar una Beca Académica de primer ingreso, que permite combinar actividades laborales y académicas durante tu formación profesional: <br>
                 <br>
                 <p>
-                    * Se asigna de acuerdo al promedio en tu último grado de estudios.
+                    <svg id="Grupo_1401" data-name="Grupo 1401" xmlns="http://www.w3.org/2000/svg" width="16" height="14.856" viewBox="0 0 16 14.856">
+                        <path id="Trazado_1134" data-name="Trazado 1134" d="M19.691,32.856A1.7,1.7,0,0,1,18,31.142V19.714A1.7,1.7,0,0,1,19.691,18h9.02a.571.571,0,0,1,0,1.143h-9.02a.568.568,0,0,0-.564.571V31.142a.568.568,0,0,0,.564.571H30.966a.568.568,0,0,0,.564-.571V25.428a.564.564,0,1,1,1.127,0v5.714a1.7,1.7,0,0,1-1.691,1.714Z" transform="translate(-18 -18)" fill="#99c4ff" />
+                        <path id="Trazado_1135" data-name="Trazado 1135" d="M59.165,40.533l9.394-9.394a.672.672,0,0,0-.95-.95L58.69,39.11l-3.551-3.552a.672.672,0,0,0-.95.95l4.026,4.026a.671.671,0,0,0,.95,0Z" transform="translate(-52.756 -28.651)" fill="#99c4ff" />
+                    </svg>
+
+                    Se asigna de acuerdo al promedio en tu último grado de estudios.
                 </p>
                 <p>
-                    * Se puede mantener a lo largo de toda la carrera.
+                    <svg id="Grupo_1401" data-name="Grupo 1401" xmlns="http://www.w3.org/2000/svg" width="16" height="14.856" viewBox="0 0 16 14.856">
+                        <path id="Trazado_1134" data-name="Trazado 1134" d="M19.691,32.856A1.7,1.7,0,0,1,18,31.142V19.714A1.7,1.7,0,0,1,19.691,18h9.02a.571.571,0,0,1,0,1.143h-9.02a.568.568,0,0,0-.564.571V31.142a.568.568,0,0,0,.564.571H30.966a.568.568,0,0,0,.564-.571V25.428a.564.564,0,1,1,1.127,0v5.714a1.7,1.7,0,0,1-1.691,1.714Z" transform="translate(-18 -18)" fill="#99c4ff" />
+                        <path id="Trazado_1135" data-name="Trazado 1135" d="M59.165,40.533l9.394-9.394a.672.672,0,0,0-.95-.95L58.69,39.11l-3.551-3.552a.672.672,0,0,0-.95.95l4.026,4.026a.671.671,0,0,0,.95,0Z" transform="translate(-52.756 -28.651)" fill="#99c4ff" />
+                    </svg>
+
+                    Se puede mantener a lo largo de toda la carrera.
                 </p>
                 <p>
-                    * Es una motivación mientras estudias, ya que te pondrá como objetivo tener un buen promedio para mantenerla.
+                    <svg id="Grupo_1401" data-name="Grupo 1401" xmlns="http://www.w3.org/2000/svg" width="16" height="14.856" viewBox="0 0 16 14.856">
+                        <path id="Trazado_1134" data-name="Trazado 1134" d="M19.691,32.856A1.7,1.7,0,0,1,18,31.142V19.714A1.7,1.7,0,0,1,19.691,18h9.02a.571.571,0,0,1,0,1.143h-9.02a.568.568,0,0,0-.564.571V31.142a.568.568,0,0,0,.564.571H30.966a.568.568,0,0,0,.564-.571V25.428a.564.564,0,1,1,1.127,0v5.714a1.7,1.7,0,0,1-1.691,1.714Z" transform="translate(-18 -18)" fill="#99c4ff" />
+                        <path id="Trazado_1135" data-name="Trazado 1135" d="M59.165,40.533l9.394-9.394a.672.672,0,0,0-.95-.95L58.69,39.11l-3.551-3.552a.672.672,0,0,0-.95.95l4.026,4.026a.671.671,0,0,0,.95,0Z" transform="translate(-52.756 -28.651)" fill="#99c4ff" />
+                    </svg>
+
+                    Es una motivación mientras estudias, ya que te pondrá como objetivo tener un buen promedio para mantenerla.
                 </p>
                 <p>
-                    * Hace más accesible el costo de colegiatura.
+                    <svg id="Grupo_1401" data-name="Grupo 1401" xmlns="http://www.w3.org/2000/svg" width="16" height="14.856" viewBox="0 0 16 14.856">
+                        <path id="Trazado_1134" data-name="Trazado 1134" d="M19.691,32.856A1.7,1.7,0,0,1,18,31.142V19.714A1.7,1.7,0,0,1,19.691,18h9.02a.571.571,0,0,1,0,1.143h-9.02a.568.568,0,0,0-.564.571V31.142a.568.568,0,0,0,.564.571H30.966a.568.568,0,0,0,.564-.571V25.428a.564.564,0,1,1,1.127,0v5.714a1.7,1.7,0,0,1-1.691,1.714Z" transform="translate(-18 -18)" fill="#99c4ff" />
+                        <path id="Trazado_1135" data-name="Trazado 1135" d="M59.165,40.533l9.394-9.394a.672.672,0,0,0-.95-.95L58.69,39.11l-3.551-3.552a.672.672,0,0,0-.95.95l4.026,4.026a.671.671,0,0,0,.95,0Z" transform="translate(-52.756 -28.651)" fill="#99c4ff" />
+                    </svg>
+                    Hace más accesible el costo de colegiatura.
                 </p>
 
                 Utiliza la calculadora de becas para conocer el porcentaje de ahorro en el costo de tu colegiatura.

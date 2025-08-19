@@ -26,6 +26,12 @@
     color: var(--color-azul-oscuro-texto-titulo);
 }
 
+.beca-embajadores {
+  background: linear-gradient(to right, #E0EFFF 0%, #A9B0D600 100%);
+  opacity: 0.88;
+
+}
+
 .becas-tarjeta{
     background-image: 
     url('../img/becas/becas-personas.png');
