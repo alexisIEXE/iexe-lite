@@ -1,0 +1,132 @@
+.section-becas{
+    background-color: var(--color-azul-azul-claro-6);
+    box-shadow: 0px 3px 30px #05366A57;
+    border-radius: 24px;
+    height: auto;
+}
+
+.becas-titulo{
+    font-size: var(--tamaño-fuente-titulos);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.becas-descripcion{
+    font-size: var(--tamaño-fuente-medio-2);
+    font-family: var(--fuente-titulo);
+    font-weight: 400;
+    color: var(--color-azul-oscuro-texto-2);
+}
+
+.becas-tipos{
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.becas-tarjeta{
+    background-image: 
+    url('../img/becas/becas-personas.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: auto;
+    min-height: 576px;
+
+}
+
+.box-info-beca{
+    width: 441px;
+    height: 182px;
+    border-radius: 20px;
+    background-color: var(--color-blanco);
+}
+
+.becas-info-descripcion{
+    font-size: var(--tamaño-fuente-medio-1);
+    font-family: var(--fuente-titulo);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+}
+
+.becas-obten-una-beca{
+    width: 244px;
+    height: 45px;
+    background-color: var(--color-azul-oscuro-texto);
+    box-shadow: 0px 3px 4px #264FFF8A;
+    border-radius: 90px;
+    color: white;
+    font-family: var(--fuente-titulo); 
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.becas-tipos-container{
+    border-bottom: 1px solid var(--color-azul-azul-claro-3);
+}
+
+.construccion-futuro-titulo{
+    font-size: var(--tamaño-fuente-titulos);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.box-construccion-futuro{
+    background-color: var(--color-azul-azul-claro-7);
+    box-shadow: 0px 3px 3px #1F378C17;
+    border-radius: 24px;
+    min-height: 220px;
+    height: auto;
+}
+
+.construccion-futuro-center{
+    background-color: var(--color-azul-cyan-variante);
+}
+
+.construccion-futuro-testimonio{
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-family: var(--fuente-titulo);
+    font-weight: 200;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.construccion-futuro-egresado{
+    font-size: var(--tamaño-fuente-medio-1);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.construccion-futuro-cargo{
+    font-size: var(--tamaño-fuente-muy-pequeño-2);
+    font-family: var(--fuente-titulo);
+    font-weight: 200;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.box-becas-estudios-iexe{
+    background-color: var(--color-azul-oscuro-texto);
+}
+
+.becas-estudio-iexe-titulo{
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-azul-azul-claro-3);
+}
+
+.becas-estudio-iexe-descripcion{
+    width: 639px;
+    font-size: var(--tamaño-fuente-grande);
+    font-family: var(--fuente-titulo);
+    font-weight: 200;
+    color: var(--color-blanco);
+}

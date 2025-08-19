@@ -1,0 +1,107 @@
+.section-proceso-inscripcion{
+    background-image: 
+    url('../img/admisiones/fondo-inscripcion.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: auto;
+    min-height: 534px;
+
+    border-radius: 0px 0px 24px 24px;
+}
+
+.proceso-inscripcion-left{
+    width: auto;
+    max-width: 587px;
+}
+
+.proceso-inscripcion-titulo{
+    width: auto;
+    max-width: 518px;
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.proceso-inscripcion-descripcion{
+    font-size: var(--tamaño-fuente-medio-1);
+    font-family: var(--fuente-titulo);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+}
+
+.proceso-inscripcion-pasos-titulo{
+    width: auto;
+    max-width: 407px;
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-family: var(--fuente-titulo);
+    font-weight: 600;
+    color: var(--color-azul-oscuro);
+}
+
+.box-paso-incripcion{
+    background-color: var(--color-azul-azul-claro-8);
+    border-radius: 12px;
+    width: 576px;
+    height: 61px;
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: bolder;
+    color: var(--color-azul-medio-oscuro-variante);
+}
+
+.box-paso-inscripcion-seleccionado{
+    width: 576px;
+    max-width: 576px;
+    height: auto;
+    min-height: 137px;
+    border-radius: 12px;
+    background-color: var(--color-blanco);
+}
+
+.box-paso-seleccionado-header{
+    background-color: var(--color-azul-medio-oscuro-variante);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-blanco);
+}
+
+.box-paso-seleccionado-body{
+    width: 100%;
+    max-width: 407px;
+    height: auto;
+    min-height: 85px;
+    font-size: var(--tamaño-fuente-grande);
+    font-family: var(--fuente-titulo);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+}
+
+.requisitos-admision-contenedor{
+    max-width: 1299px;
+    width: auto;
+    min-height: 378px;
+    height: auto;
+    box-shadow: 0px 3px 15px #0017FF1F;
+    border-radius: 0px 0px 24px 24px;
+    border-top: 4px solid var(--color-azul-oscuro-texto-titulo);
+}
+
+.requisitos-admision-lista{
+    max-width: 530px;
+    width: auto;
+    min-height: 334px;
+    height: auto;
+}
+
+.requisitos-admision-item{
+    display: inline-block;
+    min-width: 8px;
+    min-height: 8px;
+    height: auto;
+    width: auto;
+    background-color: var(--color-azul-medio-oscuro);
+}

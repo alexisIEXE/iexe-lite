@@ -22,6 +22,10 @@
   --color-azul-azul-claro-3: #99C4FF;
   --color-azul-azul-claro-4: #99A3FF;
   --color-azul-azul-claro-5: #B8C6E9;
+  --color-azul-azul-claro-6: #EDF1FA;
+  --color-azul-azul-claro-7: #D4E4F9;
+  --color-azul-azul-claro-8: #E8F2FF;
+  --color-azul-oscuro-texto-2: #163350;
 
   /* fuentes iexe */
   --fuente-titulo: 'Public Sans', sans-serif;
@@ -45,6 +49,7 @@
   /*TAMANOS NUEVOS*/
   --tamaño-fuente-muy-grande-2: 24px;
   --tamaño-fuente-titulos-2: 36px;
+  --tamaño-fuente-muy-pequeño-2: 13px;
 
 }
 
