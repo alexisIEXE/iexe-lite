@@ -1,4 +1,6 @@
 .section-proceso-inscripcion{
+    width: auto;
+    max-width: 1299px;
     background-image: 
     url('../img/admisiones/fondo-inscripcion.png');
     background-position: center;
@@ -30,6 +32,11 @@
     font-family: var(--fuente-titulo);
     font-weight: normal;
     color: var(--color-azul-dark);
+}
+
+.proceso-inscripcion-detalles{
+    width: auto;
+    max-width: 391px;
 }
 
 .proceso-inscripcion-pasos-titulo{
@@ -80,14 +87,21 @@
     color: var(--color-azul-oscuro);
 }
 
-.requisitos-admision-contenedor{
-    max-width: 1299px;
+.section-requisitos-admision{
     width: auto;
+    max-width: 1299px;
+}
+
+.requisitos-admision-contenedor{
     min-height: 378px;
     height: auto;
     box-shadow: 0px 3px 15px #0017FF1F;
     border-radius: 0px 0px 24px 24px;
     border-top: 4px solid var(--color-azul-oscuro-texto-titulo);
+}
+
+.admision-programas-contenedor{
+    height: 49px;
 }
 
 .requisitos-admision-lista{
@@ -104,4 +118,78 @@
     height: auto;
     width: auto;
     background-color: var(--color-azul-medio-oscuro);
+}
+
+.admision-programa-academico{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: 600;
+    color: var(--color-azul-oscuro-texto-titulo);
+    background-color: var(--color-blanco);
+    height: 42px;
+}
+
+.admision-programa-academico-seleccionado{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: bolder;
+    color: var(--color-blanco);
+    background-color: var(--color-azul-oscuro-texto-titulo);
+    height: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.contenedor-requisitos-admision-imagen{
+    background-image: 
+    url('../img/admisiones/logo-iexe.png');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.contenedor-requisitos-admision-fondo{
+    background-image: 
+    url('../img/admisiones/fondo-requisitos-admision.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.section-convalidacion-internacional{
+    background-color: var(--color-azul-azul-claro-7);
+    box-shadow: 0px 3px 15px #0017FF1F;
+    border-radius: 24px;
+    max-width: 1299px;
+    width: auto;
+    min-height: 351px;
+    height: auto;
+}
+
+.convalidacion-internacional-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight: bold;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.convalidacion-internacional-subtitulo{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+}
+
+.convalidacion-internacionaL-dependencia{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: bold;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.convalidacion-internacionaL-pais{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-grande);
+    font-weight: 400;
+    color: var(--color-azul-oscuro-texto-titulo);
 }
