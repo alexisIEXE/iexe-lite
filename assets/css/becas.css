@@ -1,4 +1,6 @@
 .section-becas{
+    max-width: 1297px;
+    width: auto;
     background-color: var(--color-azul-azul-claro-6);
     box-shadow: 0px 3px 30px #05366A57;
     border-radius: 24px;
@@ -6,6 +8,8 @@
 }
 
 .becas-titulo{
+    width: 100%;
+    max-width: 739px;
     font-size: var(--tamaño-fuente-titulos);
     font-family: var(--fuente-parrafo-2);
     font-weight: bolder;
@@ -45,17 +49,43 @@
 }
 
 .box-info-beca{
-    width: 441px;
+    width: auto;
+    max-width: 441px;
     height: 182px;
     border-radius: 20px;
     background-color: var(--color-blanco);
 }
 
 .becas-info-descripcion{
+    width: 393px;
+    height: 97px;
+    letter-spacing: -0.23px;
     font-size: var(--tamaño-fuente-medio-1);
     font-family: var(--fuente-titulo);
     font-weight: normal;
     color: var(--color-azul-dark);
+}
+
+@media (max-width: 576px) {
+  .becas-info-descripcion {
+    width: 262px;
+  }
+  .becas-descripcion{
+    width: 295px;
+    height: 73px;
+    overflow: hidden;
+    letter-spacing: 0.1px;
+  }
+
+  .becas-tipos{
+    font-size: var(--tamaño-fuente-muy-grande-3);
+  }
+
+  .construccion-futuro-titulo{
+    font-size: var(--tamaño-fuente-titulos-2) !important;
+    letter-spacing: 0px;
+  }
+
 }
 
 .becas-obten-una-beca{
@@ -131,8 +161,39 @@
 
 .becas-estudio-iexe-descripcion{
     width: 639px;
+    max-width: min(100%,639px);
     font-size: var(--tamaño-fuente-grande);
     font-family: var(--fuente-titulo);
     font-weight: 200;
     color: var(--color-blanco);
+}
+
+
+.becas-flecha-azul-derecha, .becas-flecha-azul-izquierda{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.becas-flecha-azul-derecha::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid #0018FF;
+    border-bottom: 3px solid #0018FF;
+    transform: rotate(-45deg);
+}
+
+.becas-flecha-azul-izquierda::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid #0018FF;
+    border-bottom: 3px solid #0018FF;
+    transform: rotate(120deg);
 }

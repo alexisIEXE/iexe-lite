@@ -4,55 +4,63 @@
 <section id="section-becas">
     <div class="container section-becas">
         <div class="row pt-4">
-            <div class="col-3 text-end">
+            <div class="d-none d-md-block col-3 text-end">
                 <div>
-                    <img src="assets/img/becas/Group 1316.png" alt="">
+                    <img src="assets/img/becas/becas-logo-iexe.png" alt="">
                 </div>
             </div>
-            <div class="col-7 text-center">
+            <div class="col-12 col-md-7 text-center">
                 <h2 class="becas-titulo">
                     Becas para impulsar tu futuro*
                 </h2>
-                <p class="becas-descripcion">
+                <p class="becas-descripcion d-none d-md-block">
                     Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu <br> estilo de vida. Aquí puedes estudiar sin dejar de trabajar ni pausar tu vida personal. Nuestros <br> programas incluyen licenciaturas, maestrías, doctorados y diplomados, todos con validez oficial.
                 </p>
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 d-flex flex-column justify-content-center ">
-                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
+        <div class="row d-sm-flex flex-column-reverse flex-sm-row">
+            <div class="col-sm-12 col-md-4 d-flex flex-column justify-content-center ">
+                <div class="px-1 py-3 d-flex flex-row justify-content-md-between justify-content-between align-items-center becas-tipos-container">
+                    <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca Institucional IEXE</h2>
-                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
+                    <i class="becas-flecha-azul-derecha"></i>
                 </div>
-                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                <div class="px-1 py-3 d-none d-md-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                    <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca por Convenios</h2>
-                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
+                    <i class="becas-flecha-azul-derecha"></i>
                 </div>
-                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container beca-embajadores">
+                <div class="px-1 py-3 d-none d-md-flex flex-row justify-content-between align-items-center becas-tipos-container beca-embajadores">
+                    <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca Embajadores IEXE</h2>
-                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
+                    <i class="becas-flecha-azul-derecha"></i>
                 </div>
-                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                <div class="px-1 py-3 d-none d-md-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                    <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca de Globo Común</h2>
-                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
+                    <i class="becas-flecha-azul-derecha"></i>
                 </div>
-                <div class="px-1 py-3 d-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                <div class="px-1 py-3 d-none d-md-flex flex-row justify-content-between align-items-center becas-tipos-container">
+                    <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca SEP</h2>
-                    <span><img src="assets/img/becas/flecha-azul-derecha.png" alt=""></span>
+                    <i class="becas-flecha-azul-derecha"></i>
                 </div>
                 <div class="px-1 py-3 mt-4 text-center">
                     <div class="becas-obten-una-beca text-center">¡Obten una beca!</div>
                 </div>
             </div>
-            <div class="col-8 px-0">
-                <div class="becas-tarjeta d-flex align-items-end justify-content-end px-5 py-4">
-                    <div class="box-info-beca p-3 d-flex flex-column justify-content-between">
+            <div class="col-sm-12 col-md-8 px-0">
+                <div class="becas-tarjeta d-flex flex-column align-items-md-end justify-content-md-end justify-content-between align-items-center px-4 px-md-5 py-4">
+                    <span class="becas-descripcion d-md-none d-block">
+                        Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu <br> estilo de vida. Aquí puedes estudiar sin dejar de trabajar ni pausar tu vida personal. Nuestros <br> programas incluyen licenciaturas, maestrías, doctorados y diplomados, todos con validez oficial.
+                    </span>
+                    <div class="box-info-beca p-md-4 px-3 py-3 d-flex flex-column justify-content-between">
                         <p class="becas-info-descripcion">
                             Este programa SEP en línea permite estudiar desde cualquier lugar, manteniendo un alto estándar académico y una formación aplicable desde el primer módulo.
                         </p>
                         <div class="text-end">
-                            <img src="assets/img/becas/solicitala-aqui.png" alt="">
+                            <img class="img-fluid" src="assets/img/becas/solicitala-aqui.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -71,7 +79,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -89,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="d-none d-md-block col-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro construccion-futuro-center">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -107,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="d-none d-md-block col-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -132,14 +140,14 @@
 
 <section id="section-becas-estudios-iexe">
     <div class="row box-becas-estudios-iexe p-5">
-        <div class="col-5">
+        <div class="d-none d-md-block col-5">
             <div>
                 <img src="assets/img/becas/obten-beca-estudios-iexe.png" alt="">
             </div>
         </div>
-        <div class="col-7">
-            <h2 class="becas-estudio-iexe-titulo">Obtén una beca de estudios IEXE</h2>
-            <div class="becas-estudio-iexe-descripcion">
+        <div class="col-12 col-md-7">
+            <h2 class="becas-estudio-iexe-titulo text-md-start text-center">Obtén una beca de estudios IEXE</h2>
+            <div class="becas-estudio-iexe-descripcion mt-5 mt-md-0">
                 Reconocemos el esfuerzo y talento al otorgar una Beca Académica de primer ingreso, que permite combinar actividades laborales y académicas durante tu formación profesional: <br>
                 <br>
                 <p>

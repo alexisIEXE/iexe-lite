@@ -22,12 +22,12 @@
                 </p>
                 <div class="d-flex d-none d-md-flex">
                     <div class="d-flex flex-column justify-content-center align-items-center mx-5">
-                        <img src="assets/img/becas/calculadora.png" alt="">
+                        <img src="assets/img/admisiones/calculadora.png" alt="">
                         <span>Calcula tu beca</span>
                         <span>Y obtén un beneficio extra</span>
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="assets/img/becas/whatsapp.png" alt="">
+                        <img src="assets/img/admisiones/whatsapp.png" alt="">
                         <span>Contactanos</span>
                         <span>Por WhatsApp</span>
                     </div>
