@@ -188,4 +188,197 @@
     </div>
 </section>
 
+<section id="section-banner-1" class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="#">
+                    <!-- <img src="wp-content/themes/iexe-unicorn/assets/img/banner/banner-1.png" alt="" width="100%" class="img-fluid" style="border-radius: 15px;"/> -->
+                    <img src="assets/img/banner/banner-1.png" alt="" width="100%" class="img-fluid" style="border-radius: 15px;" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-formulario-1">
+    <?php include_once '/template-parts/formulario-1.php'; ?>
+</section>
+
+<section id="section-becas-impulsar-futuro">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="becas-para-impulsar-futuro-titulo text-center">Becas para impulsar tu futuro*</h2>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="assets/img/home/elegir-1.webp" alt="">
+                <p class="becas-para-impulsar-futuro-descripcion text-center">
+                    Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
+                </p>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="assets/img/home/elegir-1.webp" alt="">
+                <p class="becas-para-impulsar-futuro-descripcion text-center">
+                    Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
+                </p>
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                <img src="assets/img/home/elegir-1.webp" alt="">
+                <p class="becas-para-impulsar-futuro-descripcion text-center">
+                    Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-informacion">
+    <div class="container section-informacion">
+        <div class="row">
+            <div class="col-4">
+                <div class="box-preguntas-frecuentes">
+                    <h3 class="preguntas-frecuentes-titulo">Preguntas frecuentes…</h3>
+                    <p class="preguntas-frecuentes-descripcion">Descubre com algunos de nuestros alumnos han forjado su futuro con nosotros…</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="row mb-3">
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="info-box d-flex justify-content-center align-items-center w-100">
+                            <p>Inscripciones y <br> documentos</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="info-box d-flex justify-content-center align-items-center w-100">
+                            <p>Titulación</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="info-box d-flex justify-content-center align-items-center w-100">
+                            <p>Colegiaturas y <br> formas de pago</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center align-items-center">
+                        <div class="info-box d-flex justify-content-center align-items-center w-100">
+                            <p class="w-100 text-center m-0">Validez Oficial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-contacto">
+
+    <div class="container section-contacto">
+        <div class="row">
+
+
+            <div class="col-3 mb-4">
+                <div class="contacto-box p-3 w-100">
+                    <div class="row">
+                        <div class="col-12 text-end d-flex justify-content-end">
+                            <div class="d-flex justify-content-center align-items-center contenedor-circulo-blanco">
+                                <img src="assets/img/programas/icono-chat.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12 text-start">
+                            <h2 class="contacto-titulo">Livechat</h2>
+                            <p class="contacto-descripcion">Obtén una Beca de primer ingreso hasta del 65%* que se adapta a tus necesidades.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 text-end">
+                            <img src="assets/img/programas/Group 1137.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-4">
+                <div class="contacto-box p-3 w-100">
+                    <div class="row">
+                        <div class="col-12 text-end d-flex justify-content-end">
+                            <div class="d-flex justify-content-center align-items-center contenedor-circulo-blanco">
+                                <img src="assets/img/programas/icono-whatsapp.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12 text-start">
+                            <h2 class="contacto-titulo">WhatsApp</h2>
+                            <p class="contacto-descripcion">Obtén una Beca de primer ingreso hasta del 65%* que se adapta a tus necesidades.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 text-end">
+                            <img src="assets/img/programas/Group 1137.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-4">
+                <div class="contacto-box p-3 w-100">
+                    <div class="row">
+
+                        <div class="col-12 text-end d-flex justify-content-end">
+                            <div class="d-flex justify-content-center align-items-center contenedor-circulo-blanco">
+                                <img src="assets/img/programas/icono-mail.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12 text-start">
+                            <h2 class="contacto-titulo">Contáctanos por mail</h2>
+                            <p class="contacto-descripcion">Obtén una Beca de primer ingreso hasta del 65%* que se adapta a tus necesidades.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 text-end">
+                            <img src="assets/img/programas/Group 1137.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 mb-4">
+                <div class="contacto-box p-3 w-100">
+                    <div class="row">
+                        <div class="col-12 text-end d-flex justify-content-end">
+                            <div class="d-flex justify-content-center align-items-center contenedor-circulo-blanco">
+
+                                <img src="assets/img/programas/icono-telefono.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-12 text-start">
+                            <h2 class="contacto-titulo">Llámanos</h2>
+                            <p class="contacto-descripcion">Obtén una Beca de primer ingreso hasta del 65%* que se adapta a tus necesidades.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-12 text-end">
+                            <img src="assets/img/programas/Group 1137.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+
 <?php include_once 'footer.php'; ?>

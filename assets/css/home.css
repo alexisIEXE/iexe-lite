@@ -92,3 +92,477 @@ textarea.form-control:valid {
 #programa-interes option[disabled] {
     color: #B3BDC1;
 }
+
+
+.titulo-box-video {
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: 900;
+    color: #D4E4F9;
+}
+
+.parrafo-box-video {
+    font-size: var(--tamaño-fuente-muy-grande);
+    color: var(--color-blanco);
+}
+
+.section-video-imagen {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 3px #001c3a4d;
+}
+
+.titulo-section-historia {
+    font-size: var(--tamaño-fuente-xxl-grande);
+    font-weight: 900;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.parrafo-section-historia {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: var(--tamaño-fuente-muy-grande);
+}
+
+#conoce-historia .btn-fill {
+    color: var(--color-azul-cyan) !important;
+    font-weight: 700;
+}
+
+#conoce-historia .btn-fill:hover {
+    font-weight: 900;
+}
+
+.titulo-contador-historia {
+    font-family: var(--fuente-parrafo-2);
+    color: var(--color-azul-oscuro-texto-titulo);
+    font-size: 86px;
+    font-weight: 900;
+}
+
+.texto-contador-historia {
+    font-size: 42px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.border-azul-izquierdo {
+    border-left: 2px solid var(--color-azul-medio-oscuro);
+}
+
+.box-white-new{
+    background-color: var(--color-blanco);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 3px 3px #001c3a4d;
+}
+
+.fondo-blanco-noticias {
+    height: 300px;
+    background-color: white;
+    transform: translateY(-100%);
+    position: absolute;
+    z-index: -999;
+    box-shadow: 0px 3px 3px #001c3a4d;
+}
+
+#section-top-noticias {
+    position: relative;
+    overflow: hidden;
+}
+#section-top-noticias .bg-blanco-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff;
+    z-index: 1;
+    pointer-events: none;
+}
+#section-top-noticias .gallery {
+    position: relative;
+    z-index: 2;
+    background: transparent !important;
+}
+
+.titulo-section-noticias {
+    font-weight: lighter;
+    font-size: var(--tamaño-fuente-xxl-grande);
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.texto-section-noticias {
+    font-size: var(--tamaño-fuente-medio-2);
+    color: var(--color-azul-medio-oscuro);
+}
+
+.texto-fecha-noticia {
+    font-size: var(--tamaño-fuente-muy-pequeño);
+    color: var(--color-azul-medio-oscuro);
+}
+
+.titulo-top-noticias {
+    font-size: var(--tamaño-fuente-grande);
+    color: var(--color-azul-oscuro-texto-titulo);
+    margin-top: 20px;
+}
+
+.image-noticias-cell {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.link-ver-mas-noticia {
+    text-decoration: none;
+    color: var(--color-azul-oscuro);
+    font-size: var(--tamaño-fuente-muy-pequeño);
+}
+
+
+.flickity-prev-next-button.previous {
+    left: 0px !important;
+    border-radius: 0 !important;
+    background-color: var(--color-azul-medio-oscuro);
+}
+
+.flickity-prev-next-button.previous:hover {
+    left: 0px !important;
+    border-radius: 0 !important;
+    background-color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.flickity-prev-next-button.next {
+    right: 0px !important;
+    border-radius: 0 !important;
+    background-color: var(--color-azul-medio-oscuro);
+}
+
+.flickity-prev-next-button.next:hover {
+    right: 0px !important;
+    border-radius: 0 !important;
+    background-color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.flickity-button-icon {
+    color: var(--color-blanco);
+}
+
+.btn-alianzas {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.testimonial {
+    background-color: #c6f3ff; /* color similar al de la imagen */
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+/* Impares */
+.testimonial:nth-child(odd) {
+  background-color: #D4E4F9; /* azul suave */
+}
+
+/* Pares */
+.testimonial:nth-child(even) {
+  background-color: #C6F3FF; /* celeste */
+}
+.testimonial-text {
+    font-size: 1.1rem;
+    color: #1f3b73; /* tono de azul del texto */
+    margin: 0 0 1rem 0;
+    font-family: var(--fuente-titulo);
+}
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.testimonial-footer img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-footer strong {
+    font-size: 0.95rem;
+    color: #002b6f; /* azul más fuerte */
+    font-family: var(--fuente-parrafo-2);
+}
+
+.testimonial-footer span {
+    font-size: 0.85rem;
+    color: #1f3b73;
+    font-family: var(--fuente-titulo);
+}
+
+.titulo-conoce-nuestras-redes {
+    font-size: var(--tamaño-fuente-xxl-grande);
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.link-redes-sociales {
+    font-family: var(--fuente-parrafo-2);
+    text-decoration: none;
+    color: var(--color-azul-medio-oscuro);
+    font-size: 24px;
+}
+
+.link-redes-sociales:hover {
+    text-decoration: underline;
+}
+
+.gallery { background: #EEE; }
+
+.gallery-cell {
+    width: 66%;
+    margin-right: 16px;
+}
+
+.gallery-cell img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* En pantallas grandes, hacer las celdas más estrechas para que se vean prev/next */
+@media (min-width: 1400px) {
+    .gallery-cell {
+    width: 38%;   /* prueba 38–42% según cuánto “peek” quieras */
+    margin-right: 24px;
+    }
+}
+
+
+
+.flickity-page-dots { display: none; }
+
+.box-extra-blog {
+    transform: translateX(30%);
+}
+
+#section-conoce-blog img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Variables para dispositivos móviles */
+@media (max-width: 976px) {
+    #section-oferta-educativa .btn-outline{
+        font-size: 21px;
+    }
+
+    .titulo-conoce-nuestras-redes {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+        color: var(--color-azul-oscuro);
+    }
+
+    .box-extra-blog {
+        transform: translateX(0px);
+    }
+
+    #section-conoce-blog img {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+}
+
+
+
+
+/* Ajustes para el carrusel de la sección de lo que opinan start */
+
+ /* Componente aislado */
+    @layer ixc-carousel {
+    /* Fuente solo para el componente (opcional) */
+    @import url("https://fonts.bunny.net/css?family=abel:400");
+
+    /* Scope del componente */
+    :where(.ixc) {
+        /* 100% de ancho */
+        --carousel-width: 100%;
+        /* Duplica tus items en el HTML y coloca aquí el total (originales + duplicados) */
+        --items: 12;
+
+        --carousel-duration: 40s;            /* velocidad base */
+        /* --carousel-item-width: clamp(220px, 25vw, 420px); */
+        /* --carousel-item-height: clamp(120px, 50vh, 270px); */
+        --carousel-item-width: 420px;
+        --carousel-item-height: 270px;
+        --carousel-item-gap: 2rem;
+        --ixc-clr-cta: rgb(0,132,209);
+
+        position: relative;
+        width: var(--carousel-width);
+        height: var(--carousel-item-height);
+        overflow: clip;
+        font-family: "Abel", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+        /* Suaviza en scroll/animación */
+        contain: content;
+    }
+
+    /* Box-sizing solo dentro del componente */
+    :where(.ixc, .ixc *) { box-sizing: border-box; }
+
+    /* Pausa al hover */
+    :where(.ixc):hover > article { animation-play-state: paused; }
+
+    /* Reversa opcional por atributo */
+    :where(.ixc[reverse]) > article { animation-direction: reverse; }
+
+    /* Ítems */
+    :where(.ixc) > article {
+        position: absolute;
+        top: 0;
+        left: calc(100% + var(--carousel-item-gap));
+        width: var(--carousel-item-width);
+        height: var(--carousel-item-height);
+        display: grid;
+        grid-template-rows: 200px auto 1fr auto;
+        gap: .25rem;
+
+        border: 1px solid rgba(0,0,0,.12);
+        padding-block-end: 1rem;
+        border-radius: 10px;
+        background: #fff;
+        color: #314158;
+
+        /* Animación continua */
+        will-change: transform;
+        animation-name: ixc-marquee;
+        animation-duration: var(--carousel-duration);
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: calc( (var(--carousel-duration) / var(--items)) * var(--ixc-i) * -1 );
+
+        /* Evita tearing en algunos navegadores */
+        backface-visibility: hidden;
+        transform: translate3d(0,0,0);
+    }
+
+    /* Índices (ajusta si tienes más elementos; basta con llegar al total) */
+    :where(.ixc) > article:nth-child(1) { --ixc-i: 0; }
+    :where(.ixc) > article:nth-child(2) { --ixc-i: 1; }
+    :where(.ixc) > article:nth-child(3) { --ixc-i: 2; }
+    :where(.ixc) > article:nth-child(4) { --ixc-i: 3; }
+    :where(.ixc) > article:nth-child(5) { --ixc-i: 4; }
+    :where(.ixc) > article:nth-child(6) { --ixc-i: 5; }
+    :where(.ixc) > article:nth-child(7) { --ixc-i: 6; }
+    :where(.ixc) > article:nth-child(8) { --ixc-i: 7; }
+    :where(.ixc) > article:nth-child(9) { --ixc-i: 8; }
+    :where(.ixc) > article:nth-child(10) { --ixc-i: 9; }
+    :where(.ixc) > article:nth-child(11) { --ixc-i: 10; }
+    :where(.ixc) > article:nth-child(12) { --ixc-i: 11; }
+
+    :where(.ixc) img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        display: block;
+    }
+    :where(.ixc) > article > *:not(img) { padding: 0 1rem; }
+    :where(.ixc) > article > div {
+        grid-row: span 2;
+        display: grid;
+        grid-template-rows: subgrid;
+        font-size: .9rem;
+    }
+    :where(.ixc) h2 {
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-block: .75rem .25rem;
+        margin: 0;
+    }
+    :where(.ixc) p { margin: 0; }
+    :where(.ixc) a {
+        text-decoration: none;
+        text-transform: lowercase;
+        border: 1px solid var(--ixc-clr-cta);
+        color: var(--ixc-clr-cta);
+        border-radius: 3px;
+        padding: .25rem .5rem;
+        place-self: start;
+        transition: 150ms ease-in-out;
+    }
+    :where(.ixc) a:hover,
+    :where(.ixc) a:focus-visible {
+        background-color: var(--ixc-clr-cta);
+        color: #fff;
+        outline: none;
+    }
+
+    /* Marquee: como duplicamos ítems, no hay huecos => sin parpadeo */
+    @keyframes ixc-marquee {
+        to {
+        transform: translateX(
+            calc(
+            (var(--items) * (var(--carousel-item-width) + var(--carousel-item-gap))) * -1
+            )
+        );
+        }
+    }
+
+    /* Ajuste de velocidad en pantallas más grandes */
+    @media (min-width: 600px) {
+        :where(.ixc) { --carousel-duration: 30s; }
+    }
+
+    /* Respeta prefers-reduced-motion */
+    @media (prefers-reduced-motion: reduce) {
+        :where(.ixc) > article { animation: none; left: 0; position: relative; }
+        :where(.ixc) { overflow: visible; height: auto; display: grid; gap: 1rem; }
+    }
+    }
+
+    /* Ajuste solo para móviles */
+@media (max-width: 575.98px) {
+    :where(.ixc) {
+        --carousel-item-width: 330px;
+        --carousel-item-height: 270px;
+    }
+}
+
+
+/* Ajustes para el carrusel de la sección de lo que opinan end */
+
+
+    /* Base */
+    .gallery{ width:100%; }
+    .gallery-cell{
+        width:33.333%;           /* desktop/tablet por defecto */
+        margin-right:16px;        /* espacio entre ítems */
+    }
+    .image-noticias-cell{
+        display:block;
+        width:100%;
+        height:auto;
+        border-radius:12px;
+    }
+
+    /* Solo móvil */
+    @media (max-width: 575.98px){
+        .gallery{ overflow:hidden; }       /* oculta el slide previo a la izquierda */
+        .gallery-cell{
+        width:80%;                       /* 80% visible del actual */
+        margin-right:16px;               /* espacio para que “asome” el siguiente */
+        }
+    }

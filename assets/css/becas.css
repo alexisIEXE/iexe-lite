@@ -197,3 +197,18 @@
     border-bottom: 3px solid #0018FF;
     transform: rotate(120deg);
 }
+
+.becas-para-impulsar-futuro-descripcion{
+    width: 309px;
+    font-size: var(--tamaño-fuente-grande);
+    font-family: var(--fuente-titulo);
+    font-weight: 100;
+    color: var(--color-azul-oscuro-texto-2);
+}
+
+.becas-para-impulsar-futuro-titulo{
+    font-size: var(--tamaño-fuente-titulos);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bolder;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
