@@ -1,5 +1,5 @@
 .section-becas{
-    max-width: 1297px;
+    /* max-width: min(100%,1297px); */
     width: auto;
     background-color: var(--color-azul-azul-claro-6);
     box-shadow: 0px 3px 30px #05366A57;
@@ -17,6 +17,7 @@
 }
 
 .becas-descripcion{
+    max-width: 725px;
     font-size: var(--tamaño-fuente-medio-2);
     font-family: var(--fuente-titulo);
     font-weight: 400;
@@ -85,6 +86,26 @@
     font-size: var(--tamaño-fuente-titulos-2) !important;
     letter-spacing: 0px;
   }
+
+    .info-box{
+        padding:20px; 
+        min-height:56px;
+        height:56px;
+        border: 1px solid #99A3FF;
+        border-radius: 12px;
+        font-family: var(--fuente-titulo);
+        font-size: var(--tamaño-fuente-grande);
+        color: var(--color-azul-medio-oscuro);
+        font-weight: 600;
+        letter-spacing: 0.16px;
+        background-color: var(--color-blanco);
+
+    }
+
+    .box-main-preguntas-frecuentes{
+        background: #2D44AC 0% 0% no-repeat padding-box;
+        border-radius: 15px;
+    }
 
 }
 

@@ -9,11 +9,11 @@
                     <img src="assets/img/becas/becas-logo-iexe.png" alt="">
                 </div>
             </div>
-            <div class="col-12 col-md-7 text-center">
-                <h2 class="becas-titulo">
+            <div class="col-12 col-md-9 ">
+                <h2 class="becas-titulo text-center text-md-left">
                     Becas para impulsar tu futuro*
                 </h2>
-                <p class="becas-descripcion d-none d-md-block">
+                <p class="becas-descripcion d-none d-md-block text-center">
                     Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu <br> estilo de vida. Aquí puedes estudiar sin dejar de trabajar ni pausar tu vida personal. Nuestros <br> programas incluyen licenciaturas, maestrías, doctorados y diplomados, todos con validez oficial.
                 </p>
 
@@ -213,19 +213,19 @@
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="assets/img/home/elegir-1.webp" alt="">
                 <p class="becas-para-impulsar-futuro-descripcion text-center">
                     Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
                 </p>
             </div>
-            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="d-none col-md-4 d-md-flex flex-column justify-content-center align-items-center">
                 <img src="assets/img/home/elegir-1.webp" alt="">
                 <p class="becas-para-impulsar-futuro-descripcion text-center">
                     Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
                 </p>
             </div>
-            <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="d-none col-md-4 d-md-flex flex-column justify-content-center align-items-center">
                 <img src="assets/img/home/elegir-1.webp" alt="">
                 <p class="becas-para-impulsar-futuro-descripcion text-center">
                     Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu estilo de vida.
@@ -237,35 +237,39 @@
 
 <section id="section-informacion">
     <div class="container section-informacion">
-        <div class="row">
-            <div class="col-4">
+        <div class="row box-main-preguntas-frecuentes pb-3 pb-md-0">
+            <div class="col-12 col-md-4">
                 <div class="box-preguntas-frecuentes">
                     <h3 class="preguntas-frecuentes-titulo">Preguntas frecuentes…</h3>
-                    <p class="preguntas-frecuentes-descripcion">Descubre com algunos de nuestros alumnos han forjado su futuro con nosotros…</p>
+                    <p class="preguntas-frecuentes-descripcion">Descubre con algunos de nuestros alumnos han forjado su futuro con nosotros…</p>
                 </div>
             </div>
-            <div class="col-8">
-                <div class="row mb-3">
-                    <div class="col-6 d-flex justify-content-center align-items-center">
-                        <div class="info-box d-flex justify-content-center align-items-center w-100">
-                            <p>Inscripciones y <br> documentos</p>
+            <div class="col-12 col-md-8">
+                <div class="row mb-0 mb-md-3">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center my-2">
+                        <div class="info-box d-flex justify-content-between justify-content-md-center align-items-center w-100">
+                            <span class="w-100 m-0 text-start text-md-center">Inscripciones y documentos</span>
+                            <i class="d-block d-md-none becas-flecha-azul-derecha"></i>
                         </div>
                     </div>
-                    <div class="col-6 d-flex justify-content-center align-items-center">
-                        <div class="info-box d-flex justify-content-center align-items-center w-100">
-                            <p>Titulación</p>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center my-2">
+                        <div class="info-box d-flex justify-content-between justify-content-md-center align-items-center w-100">
+                            <span class="m-0">Titulación</span>
+                            <i class="d-block d-md-none becas-flecha-azul-derecha"></i>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-6 d-flex justify-content-center align-items-center">
-                        <div class="info-box d-flex justify-content-center align-items-center w-100">
-                            <p>Colegiaturas y <br> formas de pago</p>
+                <div class="row mt-0 mt-md-3">
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center my-2">
+                        <div class="info-box d-flex justify-content-between justify-content-md-center justify-content-center align-items-center w-100">
+                            <span class="w-100 m-0 text-start text-md-center">Colegiaturas y formas de pago</span>
+                            <i class="d-block d-md-none becas-flecha-azul-derecha"></i>
                         </div>
                     </div>
-                    <div class="col-6 d-flex justify-content-center align-items-center">
-                        <div class="info-box d-flex justify-content-center align-items-center w-100">
-                            <p class="w-100 text-center m-0">Validez Oficial</p>
+                    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center my-2">
+                        <div class="info-box d-flex justify-content-between justify-content-md-center justify-content-center align-items-center w-100">
+                            <span class="w-100 m-0 text-start text-md-center">Validez Oficial</span>
+                            <i class="d-block d-md-none becas-flecha-azul-derecha"></i>
                         </div>
                     </div>
                 </div>
@@ -280,7 +284,7 @@
         <div class="row">
 
 
-            <div class="col-3 mb-4">
+            <div class="col-12 col-md-3 mb-4">
                 <div class="contacto-box p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">
@@ -303,7 +307,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="d-none d-md-block col-3 mb-4">
                 <div class="contacto-box p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">
@@ -326,7 +330,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="d-none d-md-block col-3 mb-4">
                 <div class="contacto-box p-3 w-100">
                     <div class="row">
 
@@ -351,7 +355,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="d-none d-md-block col-3 mb-4">
                 <div class="contacto-box p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">
