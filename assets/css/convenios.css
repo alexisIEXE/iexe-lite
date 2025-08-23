@@ -1,0 +1,274 @@
+.section-convenios-academicos{
+    width: auto;
+    max-width: min(1299px,auto);
+    background-image: 
+    url('../img/convenios/bg-admisiones.webp'),
+    url('../img/convenios/convenios-academicos-iexe.png');
+    background-position: center, 90% 80%;
+    background-size: cover, auto;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode:multiply;
+    height: auto;
+    min-height: 534px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.convenios-academicos-titulos{
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.convenios-academicos-iexe{
+    width: auto;
+    max-width: min(100%,419px);
+    font-size: var(--tamaño-fuente-titulos-extra-grande);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.convenios-academicos-descripcion{
+    width: auto;
+    max-width: min(377px, auto);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-family: var(--fuente-titulo);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+}
+
+.solicita-un-convenio{
+    width: 340px;
+    height: 48px;
+    background-color: var(--color-azul-dark);
+    color: var(--color-blanco);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 24px;
+}
+
+.solicita-un-convenio-formulario{
+    width: 250px;
+    font-size: var(--tamaño-fuente-medio-2);
+}
+
+.section-que-es-un-convenio{
+    background-color: var(--color-blanco);
+    box-shadow: 0px 3px 6px #0F2A6117;
+    border-radius: 42px 0px 0px 42px;
+}
+
+.instituciones-con-convenio-titulo{
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.instituciones-con-convenio-subtitulo{
+    font-size: var(--tamaño-fuente-medio-2);
+    font-family: var(--fuente-titulo);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+}
+
+.instituciones-con-convenio-leyenda{
+    font-size: var(--tamaño-fuente-medio-2);
+    font-family: var(--fuente-titulo);
+    font-weight: bolder;
+    color: var(--color-azul-oscuro);
+}
+
+.que-es-un-convenio {
+    color: var(--color-azul-medio-oscuro);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+}
+
+.beneficios-clave {
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    font-size: var(--tamaño-fuente-grande);
+    color: var(--color-azul-medio-oscuro-variante);
+}
+
+.lista-beneficios {
+    font-family: var(--fuente-titulo);
+    font-weight: 500;
+    font-size: var(--tamaño-fuente-medio-2);
+    color: var(--color-azul-medio-oscuro-variante);
+}
+
+.carousel-scroll {
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.carousel-track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+    display: inline-block;
+    width: 380px;
+    margin-right: -40px;
+}
+
+@keyframes scroll {
+0% {
+    transform: translateX(0%);
+}
+100% {
+    transform: translateX(-50%);
+}
+}
+
+/* Duplica las imágenes para que parezca infinito */
+.carousel-track > * {
+display: inline-block;
+}
+
+/*-------------------------*/
+/* Solicita convevnio      */
+/*-------------------------*/
+.container-convenio {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.texto-convenio {
+    color: #0f2640;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.btn-convenio {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(90deg, #4f46e5, #7c3aed);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.descripcion-convenio{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    color: var(--color-azul-oscuro);
+}
+
+
+section#no-cuenta {
+    /* background: linear-gradient(90deg, rgba(0,35,255,1) 0%, rgba(0,31,106,1) 67%, rgba(0,30,66,1) 89%); */
+    background: linear-gradient(270deg, #E0EFFF 40%, #A9B0D600 100%);
+    opacity: 1;
+}
+
+#no-cuenta input::placeholder {
+    color: var(--primario-azul);
+    font-size: 14px;
+}
+.empresa-mensaje {
+    background: #DCE8F8;
+    border-radius: 15px;
+    padding: 29px 54px;
+    height: calc(100% + 18px);
+}
+textarea#mensaje-emprresa {
+    width: 100%;
+    border: 1px solid #9BA4F9;
+}
+#empresas .contactanos {
+    padding: 29px 54px;
+    background: var(--primario--azul-obscuro);
+    color: #F6f6f6;
+    font-family: var(--familia-general);
+    font-weight: 300;
+    border-radius:15px;
+    min-height: 485px
+}
+
+button.btn.btn-primario {
+    background: linear-gradient(90deg, rgba(37,51,244,1) 0%, rgba(136,119,242,1) 100%);
+    color: #FFF;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-box-shadow: 0px 9px 6px 0px rgb(12 34 245 / 15%);
+    box-shadow: 0px 9px 6px 0px rgb(12 34 245 / 15%);
+    border: 0px;
+}
+
+.titulo-principal{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight: bold;
+    color: var(--color-azul-dark);
+}
+
+.completa-este-breve-formulario{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+}
+
+.label-formulario-contacto-convenio{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.box-porque-elegir-iexe{
+    background-color: var(--color-blanco);
+    box-shadow: 0px 3px 30px #0B4A8E17;
+    border-radius: 24px;   
+}
+
+.iexe-no-es-cualquier-universidad{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;
+    color: var(--color-azul-oscuro);
+}
+
+.lista-beneficios-iexe{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: normal;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.section-opinion-comunidad{
+    background-color: var(--color-azul-oscuro-texto-titulo);
+    min-height: 767px;
+}
+
+.testimonios-convenios{
+    color: var(--color-azul-cyan-variante);
+    font-size: var(--fuente-parrafo-2);
+    font-weight: bold;
+    font-size: var(--tamaño-fuente-titulos-2);
+}
+
+.video-container{
+    height: 612px;
+}
+
+.video-container > iframe{
+    height: 100%;
+}

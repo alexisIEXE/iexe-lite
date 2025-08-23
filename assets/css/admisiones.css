@@ -1,16 +1,15 @@
 .section-proceso-inscripcion{
     width: auto;
-    max-width: min(100%,1299px);
+    max-width: min(1299px,100%);
     background-image: 
-    url('../img/admisiones/fondo-inscripcion.png');
+    url('../img/convenios/bg-admisiones.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: overlay;
+    background-blend-mode:multiply;
     height: auto;
     min-height: 534px;
-
-    border-radius: 0px 0px 24px 24px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .proceso-inscripcion-left{

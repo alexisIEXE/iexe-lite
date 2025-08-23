@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="assets/css/programas.css">
         <link rel="stylesheet" href="assets/css/becas.css">
         <link rel="stylesheet" href="assets/css/admisiones.css">
+        <link rel="stylesheet" href="assets/css/convenios.css">
         </head>
         <body>
             <?php include_once 'navbar.php'; ?>
