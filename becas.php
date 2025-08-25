@@ -6,7 +6,7 @@
         <div class="row pt-4">
             <div class="d-none d-md-block col-3 text-end">
                 <div>
-                    <img src="assets/img/becas/becas-logo-iexe.png" alt="">
+                    <img src="assets/img/becas/becas-logo-iexe.webp" alt="">
                 </div>
             </div>
             <div class="col-12 col-md-9 ">
@@ -60,7 +60,7 @@
                             Este programa SEP en línea permite estudiar desde cualquier lugar, manteniendo un alto estándar académico y una formación aplicable desde el primer módulo.
                         </p>
                         <div class="text-end">
-                            <img class="img-fluid" src="assets/img/becas/solicitala-aqui.png" alt="">
+                            <img class="img-fluid" src="assets/img/becas/solicitala-aqui.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="construccion-futuro-egresados">
                         <div class="d-flex align-items-center">
-                            <img src="assets/img/becas/diana.png" alt="" class="me-3">
+                            <img src="assets/img/becas/diana.png" alt="" class="webp-3">
                             <div>
                                 <h3 class="construccion-futuro-egresado mb-0">Diana Olvera Ramírez</h3>
                                 <h4 class="construccion-futuro-cargo mb-0">Subsecretaría del Ayuntamiento De San Pedro Cholula</h4>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="construccion-futuro-egresados">
                         <div class="d-flex align-items-center">
-                            <img src="assets/img/becas/diana.png" alt="" class="me-3">
+                            <img src="assets/img/becas/diana.png" alt="" class="webp-3">
                             <div>
                                 <h3 class="construccion-futuro-egresado mb-0">Diana Olvera Ramírez</h3>
                                 <h4 class="construccion-futuro-cargo mb-0">Subsecretaría del Ayuntamiento De San Pedro Cholula</h4>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="construccion-futuro-egresados">
                         <div class="d-flex align-items-center">
-                            <img src="assets/img/becas/diana.png" alt="" class="me-3">
+                            <img src="assets/img/becas/diana.png" alt="" class="webp-3">
                             <div>
                                 <h3 class="construccion-futuro-egresado mb-0">Diana Olvera Ramírez</h3>
                                 <h4 class="construccion-futuro-cargo mb-0">Subsecretaría del Ayuntamiento De San Pedro Cholula</h4>
@@ -142,7 +142,7 @@
     <div class="row box-becas-estudios-iexe p-5">
         <div class="d-none d-md-block col-5">
             <div>
-                <img src="assets/img/becas/obten-beca-estudios-iexe.png" alt="">
+                <img src="assets/img/becas/obten-beca-estudios-iexe.webp" alt="">
             </div>
         </div>
         <div class="col-12 col-md-7">
