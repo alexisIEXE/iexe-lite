@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="row d-sm-flex flex-column-reverse flex-sm-row">
-            <div class="col-sm-12 col-md-4 d-flex flex-column justify-content-center ">
+            <div class="col-sm-12 col-xl-4 d-flex flex-column justify-content-center ">
                 <div class="px-1 py-3 d-flex flex-row justify-content-md-between justify-content-between align-items-center becas-tipos-container">
                     <i class="becas-flecha-azul-izquierda d-block d-md-none"></i>
                     <h2 class="becas-tipos">Beca Institucional IEXE</h2>
@@ -50,7 +50,7 @@
                     <div class="becas-obten-una-beca text-center">¡Obten una beca!</div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-8 px-0">
+            <div class="col-sm-12 col-xl-8 px-0">
                 <div class="becas-tarjeta d-flex flex-column align-items-md-end justify-content-md-end justify-content-between align-items-center px-4 px-md-5 py-4">
                     <span class="becas-descripcion d-md-none d-block">
                         Diseñamos una oferta educativa 100% en línea, flexible, accesible y pensada para adaptarse a tu <br> estilo de vida. Aquí puedes estudiar sin dejar de trabajar ni pausar tu vida personal. Nuestros <br> programas incluyen licenciaturas, maestrías, doctorados y diplomados, todos con validez oficial.
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-none d-md-block col-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro construccion-futuro-center">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-none d-md-block col-4">
+            <div class="col-12 col-md-12 col-lg-4 mb-4">
                 <div class="p-4 d-flex flex-column justify-content-between box-construccion-futuro">
                     <div class="construccion-futuro-testimonio mb-5">
                         <p>
@@ -139,10 +139,10 @@
 </section>
 
 <section id="section-becas-estudios-iexe">
-    <div class="row box-becas-estudios-iexe p-5">
+    <div class="row box-becas-estudios-iexe p-5 d-flex flex-row-reverse flex-lg-row">
         <div class="d-none d-md-block col-5">
             <div>
-                <img src="assets/img/becas/obten-beca-estudios-iexe.webp" alt="">
+                <img class="img-fluid" src="assets/img/becas/obten-beca-estudios-iexe.webp" alt="">
             </div>
         </div>
         <div class="col-12 col-md-7">

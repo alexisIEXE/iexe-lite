@@ -2,8 +2,8 @@
     width: auto;
     max-width: min(1299px,auto);
     background-image: 
-    url('../img/convenios/bg-admisiones.webp'),
-    url('../img/convenios/convenios-academicos-iexe.png');
+    url('../img/convenios/bg-admisiones.webp');
+    /* url('../img/convenios/convenios-academicos-iexe.webp'); */
     background-position: center, 90% 80%;
     background-size: cover, auto;
     background-repeat: no-repeat, no-repeat;
@@ -58,6 +58,11 @@
     background-color: var(--color-blanco);
     box-shadow: 0px 3px 6px #0F2A6117;
     border-radius: 42px 0px 0px 42px;
+}
+
+
+.box-instituciones-con-convenio{
+    max-height: min(763px,100%);
 }
 
 .instituciones-con-convenio-titulo{
@@ -271,4 +276,10 @@ button.btn.btn-primario {
 
 .video-container > iframe{
     height: 100%;
+}
+
+@media (max-width: 576px) {
+    .convenios-academicos-iexe{
+        font-size: var(--tamaño-fuente-xxl-grande-2);
+    }
 }

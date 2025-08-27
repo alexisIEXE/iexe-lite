@@ -3,25 +3,26 @@
 <section id="section-proceso-inscripcion">
     <div class="container section-proceso-inscripcion px-4 py-3">
         <div class="row">
-            <div class="col-6 proceso-inscripcion-left">
-                <h2 class="proceso-inscripcion-titulo text-start">
+            <div class="col-6 proceso-inscripcion-left mx-md-auto mx-xl-0">
+                <h2 class="proceso-inscripcion-titulo text-start text-md-center text-xl-start">
                     Comienza tu proceso de inscripción a IEXE Universidad
                 </h2>
-                <p class="proceso-inscripcion-descripcion">
+                <p class="proceso-inscripcion-descripcion py-md-4 py-xl-0">
                     Estudia desde cualquier lugar del país con nuestra universidad 100 % en línea. Ofrecemos programas de calidad, avalados por la SEP, diseñados para adaptarse a tus tiempos y necesidades.
                     <br>
                     Nuestro modelo educativo es flexible, accesible y con opciones de apoyo financiero y becas para que nada te impida alcanzar tu meta profesional.
                 </p>
-                <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
+                <p class="d-none d-md-block ms-5 mx-md-auto ms-xl-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
                     <span class="requisitos-admision-item me-1"> </span>
                     Este programa SEP en línea permite estudiar desde cualquier lugar, manteniendo un alto estándar académico y una formación aplicable desde el primer módulo.
                 </p>
-                <p class="d-none d-md-block ms-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
+                <p class="d-none d-md-block ms-5 mx-md-auto ms-xl-5 proceso-inscripcion-descripcion proceso-inscripcion-detalles">
                     <span class="requisitos-admision-item me-1"> </span>
                     Con más de una década de trayectoria, IEXE Universidad ha consolidado su experiencia mediante la realización de más de 350 evaluaciones de políticas públicas en América Latina.
                 </p>
-                <div class="d-flex d-none d-md-flex">
-                    <div class="d-flex flex-column justify-content-center align-items-center mx-5">
+
+                <div class="d-flex d-none d-md-flex justify-content-md-between justify-content-xl-start py-md-4 py-xl-0">
+                    <div class="d-flex flex-column justify-content-center align-items-center mx-5 mx-md-0 mx-xl-5">
                         <img src="assets/img/admisiones/calculadora.png" alt="">
                         <span>Calcula tu beca</span>
                         <span>Y obtén un beneficio extra</span>
@@ -33,8 +34,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 w-auto ms-md-5">
-                <p class="proceso-inscripcion-pasos-titulo">
+            <div class="col-6 w-auto mx-md-auto ms-xl-5 my-md-4 my-xl-0">
+                <p class="proceso-inscripcion-pasos-titulo mx-auto mx-xl-0 text-md-center text-xl-start pb-md-4 pb-xl-0">
                     Es muy fácil realizar el proceso de admisión, únicamente debes seguir estos sencillos pasos:
                 </p>
 
@@ -74,16 +75,16 @@
             </div>
         </div>
         <div class="row admision-programas-contenedor d-flex flex-column justify-content-end position-relative">
-            <div class="col-ms-12 col-md-3 d-flex justify-content-center align-items-center admision-programa-academico admision-programa-academico-seleccionado">
+            <div class="col-ms-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico admision-programa-academico-seleccionado">
                 Licenciaturas (Estatal)
             </div>
-            <div class="col-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-3 col-md-6 col-lg-4 col-xl-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
                 Licenciaturas (Federal)
             </div>
-            <div class="col-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-3 col-lg-4 col-xl-3 d-none d-lg-flex justify-content-center align-items-center admision-programa-academico">
                 Maestrías (Estatal)
             </div>
-            <div class="col-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-3 col-xl-3 d-none d-xl-flex justify-content-center align-items-center admision-programa-academico">
                 Maestrías (Federal)
             </div>
             <div class="scroll-programas-academicos position-absolute end-0 h-ms-100"></div>
@@ -133,38 +134,38 @@
                 <h3 class="convalidacion-internacional-subtitulo">En los siguientes enlaces podrás encontrar la información necesaria de cada país para realizar tu proceso de convalidación.</h3>
             </div>
         </div>
-        <div class="row mt-4 position-relative">
-            <div class="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center">
+        <div class="row mt-4 position-relative py-md-3 py-xl-0">
+            <div class="col-12 col-md-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">SENECYT</h4>
                 <h5 class="convalidacion-internacionaL-pais">Ecuador</h5>
                 <img src="assets/img/admisiones/bandera-ecuador.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MINEDUCAC</h4>
                 <h5 class="convalidacion-internacionaL-pais">Colombia</h5>
                 <img src="assets/img/admisiones/bandera-colombia.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">USAC</h4>
                 <h5 class="convalidacion-internacionaL-pais">Guatemala</h5>
                 <img src="assets/img/admisiones/bandera-guatemala.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center my-md-5 my-xl-0">
                 <h4 class="convalidacion-internacionaL-dependencia">MINED</h4>
                 <h5 class="convalidacion-internacionaL-pais">El Salvador</h5>
                 <img src="assets/img/admisiones/bandera-el-salvador.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MEDUCA</h4>
                 <h5 class="convalidacion-internacionaL-pais">Panamá</h5>
                 <img src="assets/img/admisiones/bandera-panama.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MINEDU</h4>
                 <h5 class="convalidacion-internacionaL-pais">Perú</h5>
                 <img src="assets/img/admisiones/bandera-peru.png" alt="">
@@ -250,7 +251,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-3 mb-4">
+            <div class="col-12 col-md-6 col-xl-3 mb-4">
                 <div class="contacto-box oferta-academica-box-pares p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">
@@ -286,7 +287,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="col-12 col-md-6 col-xl-3 mb-4">
                 <div class="contacto-box oferta-academica-box-nones p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">
@@ -322,7 +323,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="col-12 col-md-6 col-xl-3 mb-4">
                 <div class="contacto-box oferta-academica-box-pares p-3 w-100">
                     <div class="row">
 
@@ -360,7 +361,7 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-4">
+            <div class="col-12 col-md-6 col-xl-3 mb-4">
                 <div class="contacto-box oferta-academica-box-nones p-3 w-100">
                     <div class="row">
                         <div class="col-12 text-end d-flex justify-content-end">

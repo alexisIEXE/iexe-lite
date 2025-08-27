@@ -1,10 +1,10 @@
 <?php include_once 'header.php'; ?>
 
 <section id="section-convenios-academicos">
-    <div class="container section-convenios-academicos">
+    <div class="container section-convenios-academicos position-relative">
 
-        <div class="row h-100 py-5">
-            <div class="col-4 h-100 ps-5">
+        <div class="row h-100 py-0 py-xl-5 d-flex flex-column flex-xl-row">
+            <div class="col-12 col-xl-4 h-100 ps-0 ps-xl-5 d-flex d-xl-block flex-column align-items-center pe-0">
                 <h2 class="convenios-academicos-titulos">
                     Tu futuro te espera…
                 </h2>
@@ -22,11 +22,21 @@
                 </div>
 
             </div>
-            <div class="col-8 d-flex">
-                <h3 class="convenios-academicos-iexe ms-4">CONVENIOS ACADÉMICOS IEXE</h3>
+            <div class="col-12 col-xl-8 d-flex mt-4 my-xl-0 " style="">
+                <h3 class="convenios-academicos-iexe ms-0 ms-xl-4" style="">CONVENIOS ACADÉMICOS IEXE</h3>
             </div>
         </div>
-
+        <div class="d-none d-xl-block position-absolute end-0 top-0" style="background-color:transparent;">
+            <div style="">
+                <img class="img-fluid" src="assets/img/convenios/convenios-academicos-iexe.webp" alt="">
+            </div>
+        </div>
+        <div class="d-block d-xl-none ">
+            <div style="" class="text-center text-md-end">
+                <img class="img-fluid" src="assets/img/convenios/convenios-academicos-iexe.webp" alt="">
+            </div>
+        </div>
+        
     </div>
 </section>
 
@@ -79,41 +89,41 @@
             </div>
         </div>
 
-        <div class="row box-white-content pt-4 pb-5" style="max-height: 763px;">
+        <div class="row box-white-content d-flex justify-content-center pt-4 pb-5 box-instituciones-con-convenio">
 
-            <div class="row my-5">
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0050_Secretaria-de-Administración-del-Estado-de-Oaxaca.webp" alt="">
+            <div class="row my-0 my-xl-5">
+                <div class="col-6 col-xl-3  d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0050_Secretaria-de-Administración-del-Estado-de-Oaxaca.webp" alt="">
                 </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0027_Congreso-del-Estado-de-Tlaxcala.webp" alt="">
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0027_Congreso-del-Estado-de-Tlaxcala.webp" alt="">
                 </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0012_Poder-Ejecutivo-del-Estado-de-Queretaro.webp" alt="">
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0012_Poder-Ejecutivo-del-Estado-de-Queretaro.webp" alt="">
                 </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0046_Gobierno-del-Estado-de-Baja-California-Sur.webp" alt="">
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0020_Secretaria-de-Seguridad-Publica-de-San-Andres-Cholula.webp" alt="">
-                </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0045_Gobierno-del-Estado-de-Tlaxcala.webp" alt="">
-                </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0048_Gobierno-Estatal-de-Sinaloa.webp" alt="">
-                </div>
-                <div class="col-3 d-flex justify-content-center">
-                    <img src="assets/img/convenios/logos-convenios2_0042_Servicio-de-Protección-Federal-(SPF).webp" alt="">
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0046_Gobierno-del-Estado-de-Baja-California-Sur.webp" alt="">
                 </div>
             </div>
-            <div class="row d-flex justify-content-center align-items-center mb-2 pt-4">
+            <div class="row my-0 my-xl-5">
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0020_Secretaria-de-Seguridad-Publica-de-San-Andres-Cholula.webp" alt="">
+                </div>
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0045_Gobierno-del-Estado-de-Tlaxcala.webp" alt="">
+                </div>
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0048_Gobierno-Estatal-de-Sinaloa.webp" alt="">
+                </div>
+                <div class="col-6 col-xl-3 d-flex justify-content-center my-3 my-xl-0">
+                    <img class="img-fluid" src="assets/img/convenios/logos-convenios2_0042_Servicio-de-Protección-Federal-(SPF).webp" alt="">
+                </div>
+            </div>
+            <div class="row d-flex flex-column justify-content-center align-items-center mb-2 pt-4">
                 <div class="col-12">
                     <h4 class="text-center instituciones-con-convenio-leyenda">Si tu institución ya aparece en esta lista, puedes solicitar ahora mismo una beca exclusiva.</h4>
                 </div>
-                <div class="solicita-un-convenio d-flex justify-content-center align-items-center mt-2">
+                <div class="col-12 solicita-un-convenio d-flex justify-content-center align-items-center mt-0">
                     ¡Solicita un convenio!
                 </div>
             </div>
