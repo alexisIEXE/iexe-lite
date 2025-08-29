@@ -57,13 +57,14 @@
     font-size: var(--tamaño-fuente-muy-grande);
     font-weight: bolder;
     color: var(--color-azul-medio-oscuro-variante);
+     transition: all 0.5s ease-out; /* transición */
 }
 
 .box-paso-inscripcion-seleccionado{
     width: 576px;
     max-width: min(100%,576px);
     height: auto;
-    min-height: 137px;
+    /* min-height: 137px; */
     border-radius: 12px;
     background-color: var(--color-blanco);
 }
@@ -85,6 +86,7 @@
     font-family: var(--fuente-titulo);
     font-weight: 300;
     color: var(--color-azul-oscuro);
+    overflow-wrap: break-word;
 }
 
 .section-requisitos-admision{
@@ -102,6 +104,7 @@
 
 .admision-programas-contenedor{
     height: 49px;
+    scroll-behavior: smooth;
 }
 
 .requisitos-admision-lista{
@@ -216,6 +219,21 @@
   .scroll-programas-academicos {
     height: 100%;
   }
+
+  .box-paso-incripcion{
+    font-size: var(--tamaño-fuente-grande);
+    line-height: 1.1;
+  }
+
+  .box-paso-seleccionado-body{
+    font-size: var(--tamaño-fuente-medio-2);
+  }
+  
+  .contenedor-banderas{
+    max-height: 280px;
+    scroll-snap-align: start;
+    scroll-behavior: smooth; /* animación suave */
+}
 }
 
 .scroll-banderas::after, .scroll-programas-academicos::after{
@@ -225,7 +243,14 @@
   height: 12px;
   border-right: 3px solid white;
   border-bottom: 3px solid white;
-  transform: rotate(-45deg);
+}
+
+.scroll-derecho.scroll-programas-academicos::after, .scroll-derecho.scroll-banderas::after{
+    transform: rotate(-45deg);
+}
+
+.scroll-izquierdo.scroll-programas-academicos::after, .scroll-izquierdo.scroll-banderas::after{
+    transform: rotate(135deg);
 }
 
 .admisiones-flecha-azul, admisiones-flecha-blanca-abajo{
@@ -310,3 +335,36 @@
 .banner-oferta-admisiones{
     background-color: var(--color-azul-dark) !important;
 }
+
+/* Base flechas */
+    .arrow-sticky-left, .arrow-sticky-right{
+        position: sticky;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        user-select: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .arrow-absolute-left, .arrow-absolute-right{
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        user-select: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .arrow-absolute-right {
+        right: 0;
+    }

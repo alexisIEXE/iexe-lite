@@ -39,28 +39,54 @@
                     Es muy fácil realizar el proceso de admisión, únicamente debes seguir estos sencillos pasos:
                 </p>
 
-                <div class="box-paso-inscripcion-seleccionado pb-4">
+                <div class="box-paso-inscripcion-seleccionado">
                     <div class="box-paso-incripcion box-paso-seleccionado-header d-flex align-items-center px-4">
-                        <i class="admisiones-flecha-blanca-abajo me-2 mb-2"></i>
-                        Paso 1: Regístrate en línea
+                        <div class="d-flex">
+                            <i class="paso-admision-indicador admisiones-flecha-blanca-abajo align-self-start align-self-md-center me-2"></i>
+                            <span>Paso 1: Regístrate en línea</span>
+                        </div>
                     </div>
-                    <p class="box-paso-seleccionado-body mx-2 mx-md-4 pt-2">
+                    <p class="box-paso-seleccionado-body px-2 px-md-0 mx-md-4 pt-2 pb-4">
                         Primero debes elegir el programa, llena el formulario y un asesor educativo te conectará para continuar con tu inscripción.
                     </p>
                 </div>
 
-                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
-                    <i class="admisiones-flecha-azul me-1"></i>
-                    Paso 2: Contar con los documentos necesarios
+                <div class="box-paso-inscripcion-seleccionado">
+                    <div class="box-paso-incripcion d-flex justify-content-center justify-content-md-start align-items-center px-3 mt-3">
+                        <div class="d-flex">
+                            <i class="paso-admision-indicador admisiones-flecha-azul align-self-start align-self-md-center me-2"></i>
+                            <span>Paso 2: Contar con los documentos necesarios</span>
+                        </div>
+                    </div>
+                    <p class="d-none box-paso-seleccionado-body px-2 px-md-0 mx-md-4 pt-2 pb-4">
+                        Primerox debes elegir el programa, llena el formulario y un asesor educativo te conectará para continuar con tu inscripción.
+                    </p>
                 </div>
-                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
-                    <i class="admisiones-flecha-azul me-1"></i>
-                    Paso 3: Generamos tu ficha de inscripción
+
+                <div class="">
+                    <div class="box-paso-incripcion d-flex justify-content-center justify-content-md-start align-items-center px-3 mt-3">
+                        <div class="d-flex">
+                            <i class="paso-admision-indicador admisiones-flecha-azul align-self-start align-self-md-center me-2"></i>
+                            <span>Paso 3: Generamos tu ficha de inscripción</span>
+                        </div>
+                    </div>
+                    <p class="d-none box-paso-seleccionado-body px-2 px-md-0 mx-md-4 pt-2 pb-4">
+                        Primero debes elegir el programa, llena el formulario y un asesor educativo te conectará para continuar con tu inscripción.
+                    </p>
                 </div>
-                <div class="box-paso-incripcion d-flex align-items-center px-3 mt-3">
-                    <i class="admisiones-flecha-azul me-1"></i>
-                    Paso 4: Realiza tu pago de inscripción
+
+                <div class="">
+                    <div class="box-paso-incripcion d-flex justify-content-center justify-content-md-start align-items-center px-3 mt-3">
+                        <div class="d-flex">
+                            <i class="paso-admision-indicador admisiones-flecha-azul align-self-start align-self-md-center me-2"></i>
+                            <span>Paso 4: Realiza tu pago de inscripción</span>
+                        </div>
+                    </div>
+                    <p class="d-none box-paso-seleccionado-body px-2 px-md-0 mx-md-4 pt-2 pb-4">
+                        Primero debes elegir el programa, llena el formulario y un asesor educativo te conectará para continuar con tu inscripción.
+                    </p>
                 </div>
+
             </div>
         </div>
     </div>
@@ -74,20 +100,27 @@
                 <h3 class="requisitos-admision-subtitulo">¡Tu camino empieza aquí! Elige el programa de tu preferencia y comienza tu proceso.</h3>
             </div>
         </div>
-        <div class="row admision-programas-contenedor d-flex flex-column justify-content-end position-relative">
-            <div class="col-ms-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico admision-programa-academico-seleccionado">
+        <div class="row admision-programas-contenedor d-flex flex-column justify-content-end" style="overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;">
+            <div class="d-none arrow-sticky-left scroll-programas-academicos scroll-izquierdo h-ms-100"></div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico admision-programa-academico-seleccionado">
                 Licenciaturas (Estatal)
             </div>
-            <div class="col-3 col-md-6 col-lg-4 col-xl-3 d-none d-md-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico">
                 Licenciaturas (Federal)
             </div>
-            <div class="col-3 col-lg-4 col-xl-3 d-none d-lg-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico">
                 Maestrías (Estatal)
             </div>
-            <div class="col-3 col-xl-3 d-none d-xl-flex justify-content-center align-items-center admision-programa-academico">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico">
                 Maestrías (Federal)
             </div>
-            <div class="scroll-programas-academicos position-absolute end-0 h-ms-100"></div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico">
+                Doctorados (Federal)
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center admision-programa-academico">
+                Doctorados (Estatal)
+            </div>
+            <div class="arrow-sticky-right scroll-programas-academicos scroll-derecho"></div>
         </div>
         <div class="row requisitos-admision-contenedor">
             <div class="col-ms-12 col-md-6 d-flex justify-content-center py-3">
@@ -134,46 +167,45 @@
                 <h3 class="convalidacion-internacional-subtitulo">En los siguientes enlaces podrás encontrar la información necesaria de cada país para realizar tu proceso de convalidación.</h3>
             </div>
         </div>
-        <div class="row mt-4 position-relative py-md-3 py-xl-0">
-            <div class="col-12 col-md-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
+        <div class="contenedor-banderas d-flex align-items-center mt-4 py-3 py-xl-0" style="overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;">
+            <div class="d-none d-xl-none scroll-izquierdo scroll-banderas arrow-absolute-left h-ms-100"></div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">SENECYT</h4>
                 <h5 class="convalidacion-internacionaL-pais">Ecuador</h5>
                 <img src="assets/img/admisiones/bandera-ecuador.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MINEDUCAC</h4>
                 <h5 class="convalidacion-internacionaL-pais">Colombia</h5>
                 <img src="assets/img/admisiones/bandera-colombia.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">USAC</h4>
                 <h5 class="convalidacion-internacionaL-pais">Guatemala</h5>
                 <img src="assets/img/admisiones/bandera-guatemala.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center my-md-5 my-xl-0">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center my-lg-5 my-xl-0">
                 <h4 class="convalidacion-internacionaL-dependencia">MINED</h4>
                 <h5 class="convalidacion-internacionaL-pais">El Salvador</h5>
                 <img src="assets/img/admisiones/bandera-el-salvador.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MEDUCA</h4>
                 <h5 class="convalidacion-internacionaL-pais">Panamá</h5>
                 <img src="assets/img/admisiones/bandera-panama.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="col-2 col-md-4 col-xl-2 d-none d-md-flex flex-column justify-content-center align-items-center">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex flex-column justify-content-center align-items-center">
                 <h4 class="convalidacion-internacionaL-dependencia">MINEDU</h4>
                 <h5 class="convalidacion-internacionaL-pais">Perú</h5>
                 <img src="assets/img/admisiones/bandera-peru.png" alt="">
                 <img src="assets/img/admisiones/ver_proceso.png" alt="">
             </div>
-            <div class="d-md-none scroll-banderas position-absolute top-50 end-0">
-                <img class="img-fluid" src="" alt="">
-            </div>
+            <div class="d-xl-none scroll-derecho scroll-banderas arrow-absolute-right h-ms-100"></div>
         </div>
     </div>
 </section>

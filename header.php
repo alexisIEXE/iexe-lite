@@ -20,6 +20,7 @@
         <meta name="theme-color" content="#ffffff">
             
         <script charset="UTF-8" src="//web.webpushs.com/js/push/fb04d2eca64670c2d4d4f783909d33aa_1.js" async></script>
+        <script src="assets/js/admisiones.js"></script>
         
         <!-- se agrega bootstrap directamente css -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
