@@ -368,3 +368,11 @@
     .arrow-absolute-right {
         right: 0;
     }
+
+    .arrow-sticky-right {
+        right: 0;
+    }
+
+    .arrow-sticky-left {
+        left: 0;
+    }
