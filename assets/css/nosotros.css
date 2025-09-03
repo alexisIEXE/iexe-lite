@@ -1,0 +1,211 @@
+.section-nuestra-universidad{
+    width: auto;
+    max-width: min(1299px,100%);
+    background-image: 
+    url('../img/convenios/bg-admisiones.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    height: auto;
+    min-height: 534px;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-nuestra-universidad .row{
+    flex: 1;
+}
+
+.nuestra-universidad-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-extra-grande);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+    max-width: 419px;
+}
+
+.nuestra-universidad-descripcion{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+    max-width: 377px;
+    letter-spacing: -0.23px;
+}
+
+.section-nuestra-historia{
+    width: auto;
+    /* max-width: min(1299px,100%); */
+    min-height: 780px;
+    height: auto;
+}
+
+.section-nuestra-historia .row{
+    flex: 1;
+    height: 100%;
+}
+
+.nuestra-historia-relato{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+    letter-spacing: 0.26px;
+    max-width: 667px;
+    line-height: 20px;
+}
+
+.box-nuestra-historia{
+}
+
+.nuestra-historia-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+    max-width: 667px;
+}
+
+.section-nuestra-mision{
+    width: auto;
+    /* max-width: min(1299px,100%); */
+    min-height: 780px;
+    height: auto;
+}
+
+.section-nuestra-mision .row{
+    flex: 1;
+}
+
+.box-nuestra-mision{
+    box-shadow: 0px 3px 6px #0F2A6117;
+    border-radius: 15px;
+    background-color: var(--color-blanco);
+}
+
+.nuestra-mision-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #99C4FF,
+     1px -1px 0 #99C4FF,
+    -1px  1px 0 #99C4FF,
+     1px  1px 0 #99C4FF;
+
+}
+
+.card-mision{
+    max-width: 639px;
+    min-height: 360px;
+    border-radius: 15px;
+    background-color: #D4E4F9;
+    min-width: min(639px,100%);
+}
+
+.card-mision-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight: bold;
+    color: var(--color-azul-dark);
+}
+
+.card-mision-descripcion{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+    max-width: 543px;
+    letter-spacing: 0.26px;
+    line-height: 20px;
+}
+
+.card-back{
+    background-color: #E5EFFC !important;
+    opacity: 0.64;
+    position: absolute;
+    bottom: 40px;
+    min-width: min(639px,100%);
+    transform: scaleX(0.8);
+}
+
+.card-middle{
+    background-color: #E3EEFB !important;
+    opacity: 1;
+    position: absolute;
+    bottom: 20px;
+    min-width: min(639px,100%);
+    transform: scaleX(0.9);
+}
+
+.mensaje-fundador-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight: bold;
+    color: var(--color-azul-dark);
+}
+
+.mensaje-fundador-descripcion{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+    max-width: 861px;
+}
+
+.plantilla-profesores{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.plantilla-profesor-nombre{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bold;
+    color: var(--color-azul-dark);
+    line-height: 22px;
+}
+
+.plantilla-profesor-especialidad{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-muy-grande);
+    font-weight: 500;
+    color: var(--color-azul-medio-oscuro);
+    line-height: 22px;
+}
+
+.nuestros-profesores-titulo{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-weight: 500;
+    color: var(--color-azul-dark);
+}
+
+.box-profesor{
+    min-height: 600px;
+}
+
+.profesor-info{
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .nuestra-universidad-titulo {
+   font-size: 2.8rem;
+  }
+
+  .nuestra-mision-titulo{
+    font-size: 36px;
+  }
+
+  .plantilla-profesor-nombre{
+    /* font-size: 24px; */
+  }
+}
