@@ -196,6 +196,20 @@
     z-index: 1;
 }
 
+.donde-nos-ubicamos{
+    font-family: var(--fuente-parrafo-2);
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+}
+
+.encuentranos-y-resuelve-tus-dudas{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-2);
+    font-weight: 300;
+    color: var(--color-azul-oscuro);
+}
+
 @media (max-width: 576px) {
   .nuestra-universidad-titulo {
    font-size: 2.8rem;

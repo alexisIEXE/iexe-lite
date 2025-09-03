@@ -21,6 +21,7 @@
             
         <script charset="UTF-8" src="//web.webpushs.com/js/push/fb04d2eca64670c2d4d4f783909d33aa_1.js" async></script>
         <script src="assets/js/admisiones.js"></script>
+        <script src="assets/js/nosotros.js"></script>
         
         <!-- se agrega bootstrap directamente css -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -29,6 +30,7 @@
         <link rel="stylesheet" href="assets/css/becas.css">
         <link rel="stylesheet" href="assets/css/admisiones.css">
         <link rel="stylesheet" href="assets/css/convenios.css">
+        <link rel="stylesheet" href="assets/css/nosotros.css">
         </head>
         <body>
             <?php include_once 'navbar.php'; ?>

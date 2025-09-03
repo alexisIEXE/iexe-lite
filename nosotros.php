@@ -19,7 +19,7 @@
 </section>
 
 <section id="section-nuestra-historia">
-    <div class="container section-nuestra-hostoria">
+    <div class="container section-nuestra-historia">
         <div class="row h-100 px-0">
             <div class="col-12 col-xl-5 ps-0 pe-0 ps-xl-0 pe-xl-3 mb-4 mb-xl-0">
                 <img class="box-white-content img-fluid w-100" src="assets/img/nosotros/edificio_iexe.webp" alt="">
@@ -167,9 +167,24 @@
                         <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
                     </div>
                 </div>
+            </div>                        
+        </div>
+    </div>
+</section>
+
+<section id="section-nuestra-ubicacion">
+    <div class="container section-nuestra-ubicacion">
+        <div class="row box-white-content px-4 py-4">
+            <div class="col-12">
+                <h2 class="donde-nos-ubicamos">¿Dónde nos ubicamos?</h2>
             </div>
-           
-            
+            <div class="col-12">
+                <h3 class="encuentranos-y-resuelve-tus-dudas">Encuéntranos y resuelve todas tus dudas en Blvd. Esteban de Antuñano #2702, 72160 Puebla de Zaragoza, México.</h3>
+            </div>
+            <div class="col-12 position-relative px-5 py-5" style="min-height: 459px;">
+                <img class="position-absolute img-fluid top-0 start-0" src="assets/img/nosotros/mapa_ubicacion.webp" alt="" style="height: 100%; width: 100%; z-index:0; object-fit:cover;border-radius:15px;">
+                <img class="position-relative img-fluid" alt="" src="assets/img/nosotros/mapa-direccion.webp">
+            </div>
         </div>
     </div>
 </section>
