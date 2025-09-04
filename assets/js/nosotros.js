@@ -2,22 +2,163 @@ document.addEventListener("DOMContentLoaded", function () {
     const row = document.querySelector(".box-plantilla-profesores");
     const infoProfesores = row.querySelectorAll('.profesor-info');
 
+    //Hace que la imagen que quede al centro siempre esté expandida
+    (function () {
+        const row = document.querySelector('.box-plantilla-profesores');
+        if (!row) return;
 
-    document.querySelectorAll(".box-profesor").forEach(element => {
-        element.addEventListener('click', function () {
+        function highlightCenter() {
+            const rowCenter = row.scrollLeft + row.clientWidth / 2;
+            let closest = null;
+            let minDist = Infinity;
 
-            document.querySelectorAll(".box-profesor")
-                .forEach(e => {
-                    e.parentNode.classList.remove('col-xl-4');
-                    e.parentNode.classList.add('col-xl-2');
-                    e.children[1].classList.add('d-xl-none');
+            row.querySelectorAll('.col-xl-2, .col-xl-4').forEach(col => {
+                const rect = col.getBoundingClientRect();
+                const centerX = rect.left + rect.width / 2;
+                const dist = Math.abs(centerX - window.innerWidth / 2); // distancia al centro de pantalla
+
+                if (dist < minDist) {
+                    minDist = dist;
+                    closest = col;
+                }
+            });
+
+            if (closest) {
+                console.log("closest")
+                console.log(closest)
+                row.querySelectorAll('.col-xl-2, .col-xl-4').forEach(col => {
+                    col.classList.remove('col-xl-4');
+                    col.classList.add('col-xl-2');
+                    col.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('d-xl-none')
                 });
+                closest.classList.remove('col-xl-2');
+                closest.classList.add('col-xl-4');
+                closest.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('d-xl-none')
+            }
+        }
 
-                
-            element.parentNode.classList.remove('col-xl-2');
-            element.parentNode.classList.add('col-xl-4');
-            element.children[1].classList.remove('d-xl-none');
-            
-        })
-    })
-})
+        row.addEventListener('scroll', () => {
+            window.requestAnimationFrame(highlightCenter);
+        });
+
+        // Ejecutar una vez al inicio
+        highlightCenter();
+    })();
+
+    //Agrega botones para hacer scroll de 5 en 5
+    (function () {
+        const row = document.querySelector('.box-plantilla-profesores');
+        if (!row) return;
+
+        // Crear botones
+        const btnLeft = document.createElement('button');
+        btnLeft.innerHTML = "&#9664;"; // ←
+        btnLeft.className = "scroll-btn scroll-btn-left";
+
+        const btnRight = document.createElement('button');
+        btnRight.innerHTML = "&#9654;"; // →
+        btnRight.className = "scroll-btn scroll-btn-right";
+
+        // Insertar botones en el DOM (posición relativa al row padre)
+        row.parentElement.style.position = "relative";
+        row.parentElement.appendChild(btnLeft);
+        row.parentElement.appendChild(btnRight);
+
+        function getStep() {
+            // Toma el ancho de 5 elementos promedio (según el primero visible)
+            const first = row.querySelector('.col-12, .col-md-6, .col-md-4, .col-xl-2, .col-xl-4');
+            if (!first) return row.clientWidth; // fallback
+            const rect = first.getBoundingClientRect();
+            const style = getComputedStyle(first);
+            const margin = parseFloat(style.marginLeft) + parseFloat(style.marginRight);
+            const itemWidth = rect.width + margin;
+            return itemWidth * 5;
+        }
+
+        btnLeft.addEventListener('click', () => {
+            row.scrollBy({ left: -getStep(), behavior: "smooth" });
+        });
+        btnRight.addEventListener('click', () => {
+            row.scrollBy({ left: getStep(), behavior: "smooth" });
+        });
+    })();
+
+    //Centra la imagen cuando se selecciona
+    (function () {
+        const row = document.querySelector('.box-plantilla-profesores');
+        if (!row || row.dataset.clickCenterCircular) return;
+        row.dataset.clickCenterCircular = '1';
+
+        const children = Array.from(row.children);
+        const visibleCount = Math.floor(row.clientWidth / children[0].clientWidth); // aprox cuántos caben en pantalla
+
+        // 🔹 Clonar al inicio y final para efecto circular
+        for (let i = 0; i < visibleCount; i++) {
+            row.appendChild(children[i].cloneNode(true)); // clones al final
+            row.insertBefore(children[children.length - 1 - i].cloneNode(true), row.firstChild); // clones al inicio
+        }
+
+        // Ajustar scroll inicial (para que no arranque en clones)
+        row.scrollLeft = row.scrollWidth / 3;
+
+        function centerCol(col) {
+            const rowRect = row.getBoundingClientRect();
+            const colRect = col.getBoundingClientRect();
+
+            let target = row.scrollLeft + (colRect.left - rowRect.left / 2) + (colRect.width / 2) - (row.clientWidth / 2);
+
+            if (row.scrollLeft < target) {
+
+                console.log("derecha")
+                target = row.scrollLeft + (colRect.left - rowRect.left) + (colRect.width / 2) - (row.clientWidth / 2) - rowRect.left / 2;
+            } else {
+                console.log("izquierda")
+                target = row.scrollLeft + (colRect.left - rowRect.left / 2) + (colRect.width / 2) - (row.clientWidth / 2);
+            }
+
+
+            row.scrollTo({ left: target, behavior: 'smooth' });
+
+            // 🔹 Detectar si estamos en clones y reubicar al original
+            setTimeout(() => {
+                const allItems = row.querySelectorAll(':scope > *');
+                const index = Array.from(allItems).indexOf(col);
+
+                // Si es un clon del inicio → saltamos al original equivalente
+                if (index < visibleCount) {
+                    const original = allItems[index + children.length];
+                    centerCol(original);
+                }
+                // Si es un clon del final → saltamos al original equivalente
+                else if (index >= children.length + visibleCount) {
+                    const original = allItems[index - children.length];
+                    centerCol(original);
+                }
+            }, 400);
+        }
+
+        function getDirectChild(el) {
+            let n = el;
+            while (n && n.parentElement !== row) n = n.parentElement;
+            return (n && n.parentElement === row) ? n : null;
+        }
+
+        row.addEventListener('click', (e) => {
+            const img = e.target.closest('img.plantilla-profesores');
+            if (!img) return;
+            e.stopImmediatePropagation();
+            const col = getDirectChild(img);
+            if (col) centerCol(col);
+        }, { capture: true });
+
+        row.addEventListener('click', (e) => {
+            const box = e.target.closest('.box-profesor');
+            if (!box) return;
+            const col = getDirectChild(box);
+            if (col) centerCol(col);
+        }, { capture: true });
+
+    })();
+
+
+});

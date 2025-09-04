@@ -209,6 +209,41 @@
     color: var(--color-azul-oscuro);
 }
 
+/* Oculta la barra en navegadores WebKit */
+.box-plantilla-profesores::-webkit-scrollbar { display: none; }
+/* Ya traes scrollbar-width:none; y -ms-overflow-style:none; en el inline */
+
+/* Suaviza el desplazamiento manual (no aplica al “teletransporte” interno) */
+.box-plantilla-profesores { scroll-behavior: smooth; }
+
+.box-plantilla-profesores > [class*="col-xl-"] {
+  transition: flex-basis 0.4s ease, max-width 0.4s ease;
+}
+
+.box-plantilla-profesores .box-profesor {
+  transition: transform 0.3s ease;
+}
+
+.box-plantilla-profesores > .col-xl-4 .box-profesor {
+  transform: scale(1.05);
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(255,255,255,0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.scroll-btn-left { left: 10px; }
+.scroll-btn-right { right: 10px; }
+
 @media (max-width: 576px) {
   .nuestra-universidad-titulo {
    font-size: 2.8rem;
