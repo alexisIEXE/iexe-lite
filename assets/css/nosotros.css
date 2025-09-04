@@ -244,6 +244,66 @@
 .scroll-btn-left { left: 10px; }
 .scroll-btn-right { right: 10px; }
 
+.profesor-presentacion{
+    background-color: #001e42;
+    transition: 0.8s ease-in-out;
+}
+
+.profesor-presentacion .plantilla-profesor-nombre, .profesor-presentacion .plantilla-profesor-especialidad{
+    color: white !important;
+}
+
+.profesor-presentacion .plantilla-profesor-presentacion{
+    color: white;
+    text-align: justify;
+    
+}
+
+
+.nosotros-arrow-sticky-left, .nosotros-arrow-sticky-right{
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        user-select: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: #0018FF 0% 0% no-repeat padding-box;
+    }
+
+    .nosotros-arrow-sticky-left::after, .nosotros-arrow-sticky-right::after{
+        content: "";
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+
+.nosotros-arrow-sticky-right {
+        right: 0;
+        bottom: 50%;
+    }
+
+    .nosotros-arrow-sticky-left {
+        left: 0;
+        bottom: 50%;
+    }
+
+    .nosotros-arrow-sticky-right::after{
+        transform: rotate(-45deg);
+    }
+
+    .nosotros-arrow-sticky-left::after{
+        transform: rotate(135deg);
+    }
+
+    
+
 @media (max-width: 576px) {
   .nuestra-universidad-titulo {
    font-size: 2.8rem;

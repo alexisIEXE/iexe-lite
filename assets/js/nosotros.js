@@ -24,16 +24,52 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             if (closest) {
-                console.log("closest")
-                console.log(closest)
                 row.querySelectorAll('.col-xl-2, .col-xl-4').forEach(col => {
                     col.classList.remove('col-xl-4');
+                    col.classList.remove('profesor-seleccionado');
                     col.classList.add('col-xl-2');
                     col.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('d-xl-none')
                 });
                 closest.classList.remove('col-xl-2');
                 closest.classList.add('col-xl-4');
+                closest.classList.add('profesor-seleccionado');
                 closest.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('d-xl-none')
+                const btnVerPresentacion = closest.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.btn-ver-presentacion')
+                if (btnVerPresentacion) {
+
+                    // btnVerPresentacion.addEventListener('click', () => {
+
+                    //     console.log("click")
+
+                    //     if (closest.querySelector('.box-profesor').querySelector('.profesor-info').classList.contains('profesor-presentacion')) {
+
+                    //         console.log('mostrando...')
+                    //         closest.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('profesor-presentacion');
+                    //         closest.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
+
+                    //         btnVerPresentacion.innerHTML = '';
+                    //         btnVerPresentacion.innerHTML = 'Ver más ↗';
+                    //         // const btnVerMas = document.createElement('i');
+                    //         // btnVerMas.innerText = 'Ver más ↗'
+                    //         // btnVerPresentacion.appendChild(btnVerMas);
+
+                    //     } else {
+
+                    //         console.log('ocultando...')
+                    //         closest.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('profesor-presentacion');
+                    //         closest.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.remove('d-none');
+
+                    //         btnVerPresentacion.innerHTML = '';
+                    //         btnVerPresentacion.innerHTML = 'Ver menos ↙';
+                    //         // const btnVerMenos = document.createElement('i');
+                    //         // btnVerMenos.innerText = 'Ver menos ↙'
+                    //         // btnVerPresentacion.appendChild(btnVerMenos);
+
+                    //     }
+
+                    // });
+
+                }
             }
         }
 
@@ -51,13 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!row) return;
 
         // Crear botones
-        const btnLeft = document.createElement('button');
-        btnLeft.innerHTML = "&#9664;"; // ←
-        btnLeft.className = "scroll-btn scroll-btn-left";
 
-        const btnRight = document.createElement('button');
-        btnRight.innerHTML = "&#9654;"; // →
-        btnRight.className = "scroll-btn scroll-btn-right";
+        const btnLeft = row.querySelector('.nosotros-arrow-sticky-left');
+        const btnRight = row.querySelector('.nosotros-arrow-sticky-right');
 
         // Insertar botones en el DOM (posición relativa al row padre)
         row.parentElement.style.position = "relative";
@@ -143,22 +175,65 @@ document.addEventListener("DOMContentLoaded", function () {
             return (n && n.parentElement === row) ? n : null;
         }
 
-        row.addEventListener('click', (e) => {
-            const img = e.target.closest('img.plantilla-profesores');
-            if (!img) return;
-            e.stopImmediatePropagation();
-            const col = getDirectChild(img);
-            if (col) centerCol(col);
-        }, { capture: true });
+        // row.addEventListener('click', (e) => {
+        //     const img = e.target.closest('img.plantilla-profesores');
+        //     if (!img) return;
+        //     e.stopImmediatePropagation();
+        //     const col = getDirectChild(img);
+        //     if (col) centerCol(col);
+        // }, { capture: true });
 
         row.addEventListener('click', (e) => {
+            console.log("#e")
+            console.log(e.target)
+            if (e.target.classList.contains('btn-ver-presentacion')){
+                mostrarPresentacion(e.target)
+                return;
+            }
+
+            // if (e.target.classList.contains('profesor-seleccionado'))
+            //     return;
             const box = e.target.closest('.box-profesor');
+            console.log("BOX")
+            console.log(box)
             if (!box) return;
+            console.log("no llego")
             const col = getDirectChild(box);
             if (col) centerCol(col);
-        }, { capture: true });
+        }, { capture: false });
 
     })();
 
+
+    function mostrarPresentacion(e) {
+
+        console.log("mostrarPresentacion")
+        console.log(e)
+
+        const row = document.querySelector(".box-plantilla-profesores");
+        const profesorSeleccionado = row.querySelector('.profesor-seleccionado')
+        
+
+        if (profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.contains('profesor-presentacion')) {
+
+            console.log('mostrando...')
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('profesor-presentacion');
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
+
+            e.innerHTML = '';
+            e.innerHTML = 'Ver más ↗';
+
+        }else {
+
+            console.log('ocultando...')
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('profesor-presentacion');
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.remove('d-none');
+
+            e.innerHTML = '';
+            e.innerHTML = 'Ver menos ↙';
+
+        }
+
+    }
 
 });

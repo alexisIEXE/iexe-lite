@@ -119,146 +119,227 @@
         <div class="row mb-2">
             <div class="col-12">
                 <h2 class="text-center nuestros-profesores-titulo">Nuestra plantilla de profesores altamente capacitados para ti</h2>
+                <i class="flecha-azul-izquierda top-50 end-0"></i>
+                <i class="flecha-azul-derecha top-50 end-0"></i>
             </div>
         </div>
-        <div class="row flex-nowrap box-plantilla-profesores" style="overflow-x:auto; scrollbar-width:none; -ms-overflow-style:none;">
+        <div class="row flex-nowrap box-plantilla-profesores" style="overflow-x:auto; overflow-y:hidden; scrollbar-width:none; -ms-overflow-style:none;">
 
-            <div class="col-12 col-md-6 col-xl-2">
-                <div class="box-profesor position-relative">
+            <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-2">
-                <div class="box-profesor position-relative">
+
+            <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-xl-4 my-3 my-xl-0 mx-auto">
-                <div class="box-profesor position-relative">
+
+            <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
             </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
             </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                        
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                        
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
             <div class="col-12 col-md-4 col-xl-2 my-3 my-xl-0">
-                <div class="box-profesor position-relative">
+                <div class="box-profesor position-relative h-100 w-100">
                     <img class="position-absolute plantilla-profesores top-0 start-0 img-fluid" src="assets/img/nosotros/maestra-tania.webp" alt="">
-                    <div class="profesor-info ms-4 pt-4 position-relative d-xl-none">
-                        <h3 class="plantilla-profesor-nombre">Mtra. Tania Pérez Peralta</h3>
-                        <h4 class="plantilla-profesor-especialidad">Especialista en Políticas Públicas</h4>
+                    <div class="profesor-info py-4 position-relative d-xl-none d-flex flex-column justify-content-start h-100">
+                        <h3 class="plantilla-profesor-nombre mt-3 ms-4">Mtra. Tania Pérez Peralta</h3>
+                        <h4 class="plantilla-profesor-especialidad ms-4">Especialista en Políticas Públicas</h4>
+                        <p class="d-none plantilla-profesor-presentacion mx-4 mt-3">
+                            Por más de 50 años se ha dedicado a asesorar a&nbsp;gobiernos de América Latina&nbsp;en el diseño, evaluación e implementación de políticas públicas. Además,&nbsp;es autor del bestseller&nbsp;“Diseño de Políticas Públicas”, obra de cabecera en universidades, gobiernos y organismos multilaterales. Julio cuenta con una Maestría en Políticas Públicas por la Universidad de Chicago.
+                        </p>
+                        <a class="position-relative mt-auto me-3 align-self-end btn-ver-presentacion" style="color: white; cursor:pointer; text-decoration: none;">Ver más &#8599; </a>
                     </div>
                 </div>
-            </div>                  
+            </div>
+
+            <div class="nosotros-arrow-sticky-left"></div>
+            <div class="nosotros-arrow-sticky-right"></div>
         </div>
+
     </div>
 </section>
 
