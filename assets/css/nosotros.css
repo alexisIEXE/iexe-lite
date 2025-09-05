@@ -275,6 +275,12 @@
     bottom: 0;
 }
 
+.profesor-seleccionado{
+    border-radius: 15px;
+    padding: 0 0;
+    overflow: hidden;
+}
+
 .nosotros-arrow-sticky-left, .nosotros-arrow-sticky-right{
         position: absolute;
         z-index: 3;
