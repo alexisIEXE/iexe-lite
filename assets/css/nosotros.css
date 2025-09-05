@@ -224,9 +224,9 @@
   transition: transform 0.3s ease;
 }
 
-.box-plantilla-profesores > .col-xl-4 .box-profesor {
+/* .box-plantilla-profesores > .col-xl-4 .box-profesor {
   transform: scale(1.05);
-}
+} */
 
 .scroll-btn {
   position: absolute;
@@ -245,20 +245,34 @@
 .scroll-btn-right { right: 10px; }
 
 .profesor-presentacion{
-    background-color: #001e42;
-    transition: 0.8s ease-in-out;
+    /* background-color: #001e42;
+    transition: 0.8s ease-in-out; */
 }
 
-.profesor-presentacion .plantilla-profesor-nombre, .profesor-presentacion .plantilla-profesor-especialidad{
+.box-presentacion .plantilla-profesor-nombre, .box-presentacion .plantilla-profesor-especialidad{
     color: white !important;
 }
 
 .profesor-presentacion .plantilla-profesor-presentacion{
     color: white;
     text-align: justify;
-    
 }
 
+.box-presentacion .plantilla-profesor-presentacion{
+    color: white;
+    text-align: justify;
+}
+
+.box-presentacion{
+    background-color: #001e42;
+    z-index:100;
+    bottom:-600px;
+    transition: all 0.9s ease-in-out 0s;
+}
+
+.box-presentacion-show{
+    bottom: 0;
+}
 
 .nosotros-arrow-sticky-left, .nosotros-arrow-sticky-right{
         position: absolute;

@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     col.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('d-xl-none')
 
                     col.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('profesor-presentacion');
-                    col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
+                    // col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
 
                     col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.btn-ver-presentacion').innerHTML = '';
                     col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.btn-ver-presentacion').innerHTML = 'Ver más ↗';
@@ -178,18 +178,19 @@ document.addEventListener("DOMContentLoaded", function () {
         if (profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.contains('profesor-presentacion')) {
 
             profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('profesor-presentacion');
-            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
-
-            e.innerHTML = '';
-            e.innerHTML = 'Ver más ↗';
+            // profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.box-presentacion').classList.remove('box-presentacion-show');
+            // e.innerHTML = '';
+            // e.innerHTML = 'Ver más ↗';
 
         } else {
 
             profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').classList.add('profesor-presentacion');
-            profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.remove('d-none');
+            // profesorSeleccionado.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.remove('d-none');
+            profesorSeleccionado.querySelector('.box-profesor').querySelector('.box-presentacion').classList.add('box-presentacion-show');
 
-            e.innerHTML = '';
-            e.innerHTML = 'Ver menos ↙';
+            // e.innerHTML = '';
+            // e.innerHTML = 'Ver menos ↙';
 
         }
 
