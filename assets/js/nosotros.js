@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (closest) {
                 row.querySelectorAll('.col-xl-2, .col-xl-4').forEach(col => {
+                    col.querySelector('.box-profesor').querySelector('.box-presentacion').classList.remove('box-presentacion-show');
                     col.classList.remove('col-xl-4');
                     col.classList.remove('profesor-seleccionado');
                     col.classList.add('col-xl-2');
@@ -32,7 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     col.querySelector('.box-profesor').querySelector('.profesor-info').classList.remove('profesor-presentacion');
                     // col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.plantilla-profesor-presentacion').classList.add('d-none');
-
                     col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.btn-ver-presentacion').innerHTML = '';
                     col.querySelector('.box-profesor').querySelector('.profesor-info').querySelector('.btn-ver-presentacion').innerHTML = 'Ver más ↗';
 
