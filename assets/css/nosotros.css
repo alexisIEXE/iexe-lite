@@ -267,6 +267,7 @@
     background-color: #001e42;
     z-index:100;
     bottom:-600px;
+    border-radius: 15px;
     transition: all 0.9s ease-in-out 0s;
 }
 
