@@ -1,0 +1,68 @@
+.section-toda-la-oferta{
+    width: auto;
+    max-width: min(1299px,auto);
+    background-image: 
+    url('../img/toda-la-oferta/bg-admisiones.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    height: auto;
+    min-height: 534px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.toda-la-oferta-titulo{
+    max-width: 411px;
+    font-size: var(--tamaño-fuente-xxl-grande-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-medio-oscuro);
+    letter-spacing: 0.43px;
+}
+
+.toda-la-oferta-descripcion{
+    max-width: 377px;
+    font-size: var(--tamaño-fuente-medio-1);
+    font-family: var(--fuente-titulo);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+    letter-spacing: -0.23px;
+    line-height: 19.6px;
+}
+
+.box-programas-en-linea{
+    min-height: 831px;
+    opacity: 0.88;
+    background: linear-gradient(90deg, #FFFFFF00 40%, #E0EFFF 100%);
+    border-radius: 15px;
+}
+
+.programas-en-linea-titulo{
+    font-size: var(--tamaño-fuente-titulos-2);
+    font-family: var(--fuente-parrafo-2);
+    font-weight: bold;
+    color: var(--color-azul-oscuro-texto-titulo);
+}
+
+.bg_foto_oferta_iexe{
+    border-radius: 15px;
+}
+
+.programas-en-linea-descripcion{
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamaño-fuente-medio-1);
+    font-weight: normal;
+    color: var(--color-azul-dark);
+    letter-spacing: 0.18px;
+    line-height: 18px;
+}
+
+.toda-la-oferta-item{
+    display: inline-block;
+    min-width: 8px;
+    min-height: 8px;
+    height: auto;
+    width: auto;
+    background-color: var(--color-azul-medio-oscuro);
+}

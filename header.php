@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="assets/css/admisiones.css">
         <link rel="stylesheet" href="assets/css/convenios.css">
         <link rel="stylesheet" href="assets/css/nosotros.css">
+        <link rel="stylesheet" href="assets/css/toda-la-oferta.css">
         </head>
         <body>
             <?php include_once 'navbar.php'; ?>
